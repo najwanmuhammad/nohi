@@ -133,10 +133,3 @@ CARA KERJA YANG WAJIB
 - Pertahankan perubahan user yang tidak terkait.
 - Setelah perubahan kode, jalankan test yang relevan dan laporkan perintah serta hasilnya.
 ```
-
-## Catatan penggunaan
-
-1. Letakkan file ini di root project sebagai `CODEX-HANDOFF.md`.
-2. Letakkan backlog terbaru sebagai `TASKS.md`.
-3. Saat membuka sesi Codex baru, berikan instruksi singkat: `Baca CODEX-HANDOFF.md, TASKS.md, manifest.json, dan README terkait. Lanjutkan task aktif tanpa mengubah keputusan bisnis.`
-4. Jangan menempelkan ulang seluruh PRD setiap sesi selama file PRD dan handoff tersedia di repository privat.
