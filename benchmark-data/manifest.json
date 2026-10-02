@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "1.0.0",
+  "datasetName": "ai-document-checking-gold-dataset",
+  "datasetVersion": "1.0.0",
+  "createdDate": "2026-09-28",
+  "language": ["id", "en"],
+  "confidentiality": "private-company-data",
+  "sourceFilesIncluded": false,
+  "sourceFileConvention": "<documentId>.pdf",
+  "numericComparison": {
+    "mode": "exact_after_normalization",
+    "tolerance": 0,
+    "normalization": "Parse currency and quantity as decimal after removing display separators; compare decimal values exactly."
+  },
+  "identifierComparison": {
+    "mode": "exact",
+    "fuzzyMatchingAllowed": false,
+    "ignoredIdentifiers": ["tax_goods_code:000000"]
+  },
+  "taxInvoiceNumberContract": {
+    "rawEvidenceField": "tax_invoice_full_number",
+    "transType": "first 2 digits",
+    "taxReplc": "third digit",
+    "taxInvoiceNumber": "all digits after the third digit",
+    "fullNumberInvariant": "tax_invoice_full_number = trans_type + tax_replc + tax_invoice_number"
+  },
+  "requiredFields": {
+    "invoice": {
+      "header": [
+        "supplier_name",
+        "invoice_number",
+        "invoice_date",
+        "sub_total_amount",
+        "taxable_base",
+        "tax_amount",
+        "total_amount"
+      ],
+      "item": ["part_number", "part_name", "quantity", "price", "amount"]
+    },
+    "delivery_note": {
+      "header": ["supplier_name", "delivery_note_number", "delivery_note_date"],
+      "item": ["part_number", "part_name", "quantity"]
+    },
+    "tax_invoice": {
+      "header": [
+        "supplier_name",
+        "tax_invoice_number",
+        "tax_invoice_date",
+        "taxable_base",
+        "tax_amount"
+      ],
+      "hesDerivedIdentifierFields": ["trans_type", "tax_replc"],
+      "item": []
+    }
+  },
+  "decisionPolicy": {
+    "matched_high_confidence": "All required fields are present, pass confidence threshold, and exactly match HES after normalization.",
+    "mismatch": "At least one readable required field differs from HES, including a required line item identifier or numeric value.",
+    "needs_review": "At least one required field is missing or low confidence, or the document cannot be compared reliably. A known readable mismatch takes precedence over needs_review."
+  },
+  "regressionThresholds": {
+    "required_field_accuracy": 1.0,
+    "identifier_accuracy": 1.0,
+    "row_accuracy": 1.0,
+    "classification_accuracy": 1.0,
+    "grouping_accuracy": 1.0,
+    "decision_accuracy": 1.0
+  },
+  "splitPolicy": {
+    "strategy": "supplier_disjoint_holdout",
+    "developmentSamples": ["01", "02", "03"],
+    "holdoutSamples": ["05"],
+    "reason": "The holdout supplier/layout is not present in development, preventing supplier-template leakage."
+  },
+  "documents": [
+    {
+      "documentId": "delivery-note-01",
+      "type": "delivery_note",
+      "supplierGroup": "akebono",
+      "groundTruth": "ground-truth/delivery-note-01.json",
+      "sourceFile": "delivery-note-01.pdf",
+      "split": "development"
+    },
+    {
+      "documentId": "invoice-01",
+      "type": "invoice",
+      "supplierGroup": "akebono",
+      "groundTruth": "ground-truth/invoice-01.json",
+      "sourceFile": "invoice-01.pdf",
+      "split": "development"
+    },
+    {
+      "documentId": "tax-invoice-01",
+      "type": "tax_invoice",
+      "supplierGroup": "akebono",
+      "groundTruth": "ground-truth/tax-invoice-01.json",
+      "sourceFile": "tax-invoice-01.pdf",
+      "split": "development"
+    },
+    {
+      "documentId": "delivery-note-02",
+      "type": "delivery_note",
+      "supplierGroup": "rukun",
+      "groundTruth": "ground-truth/delivery-note-02.json",
+      "sourceFile": "delivery-note-02.pdf",
+      "split": "development"
+    },
+    {
+      "documentId": "invoice-02",
+      "type": "invoice",
+      "supplierGroup": "rukun",
+      "groundTruth": "ground-truth/invoice-02.json",
+      "sourceFile": "invoice-02.pdf",
+      "split": "development"
+    },
+    {
+      "documentId": "tax-invoice-02",
+      "type": "tax_invoice",
+      "supplierGroup": "rukun",
+      "groundTruth": "ground-truth/tax-invoice-02.json",
+      "sourceFile": "tax-invoice-02.pdf",
+      "split": "development"
+    },
+    {
+      "documentId": "delivery-note-03",
+      "type": "delivery_note",
+      "supplierGroup": "okaya",
+      "groundTruth": "ground-truth/delivery-note-03.json",
+      "sourceFile": "delivery-note-03.pdf",
+      "split": "development"
+    },
+    {
+      "documentId": "invoice-03",
+      "type": "invoice",
+      "supplierGroup": "okaya",
+      "groundTruth": "ground-truth/invoice-03.json",
+      "sourceFile": "invoice-03.pdf",
+      "split": "development"
+    },
+    {
+      "documentId": "tax-invoice-03",
+      "type": "tax_invoice",
+      "supplierGroup": "okaya",
+      "groundTruth": "ground-truth/tax-invoice-03.json",
+      "sourceFile": "tax-invoice-03.pdf",
+      "split": "development"
+    },
+    {
+      "documentId": "delivery-note-05",
+      "type": "delivery_note",
+      "supplierGroup": "interglobal",
+      "groundTruth": "ground-truth/delivery-note-05.json",
+      "sourceFile": "delivery-note-05.pdf",
+      "split": "holdout"
+    },
+    {
+      "documentId": "invoice-05",
+      "type": "invoice",
+      "supplierGroup": "interglobal",
+      "groundTruth": "ground-truth/invoice-05.json",
+      "sourceFile": "invoice-05.pdf",
+      "split": "holdout"
+    },
+    {
+      "documentId": "tax-invoice-05",
+      "type": "tax_invoice",
+      "supplierGroup": "interglobal",
+      "groundTruth": "ground-truth/tax-invoice-05.json",
+      "sourceFile": "tax-invoice-05.pdf",
+      "split": "holdout"
+    }
+  ]
+}

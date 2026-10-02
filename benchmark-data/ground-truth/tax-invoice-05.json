@@ -1,0 +1,49 @@
+{
+  "documentId": "tax-invoice-05",
+  "requestedDocumentType": "tax_invoice",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageType": "tax_invoice",
+      "isTarget": true,
+      "logicalDocumentId": "tax-invoice-05"
+    }
+  ],
+  "expectedExtraction": {
+    "supplier_name": "INTERGLOBAL ELECTRIC PARTS",
+    "tax_invoice_full_number": "04002600381077552",
+    "trans_type": "04",
+    "tax_replc": "0",
+    "tax_invoice_number": "02600381077552",
+    "tax_invoice_date": "2026-09-15",
+    "items": [
+      {
+        "tax_goods_code": "000000",
+        "part_number": "84310-F1020",
+        "part_name": "SWITCH ASSY TURN SIGNAL",
+        "quantity": 100,
+        "price": 454870.0,
+        "amount": 45487000.0
+      },
+      {
+        "tax_goods_code": "000000",
+        "part_number": "84332-F1010",
+        "part_name": "SWITCH HAZARD WARNING SIGNAL",
+        "quantity": 120,
+        "price": 69390.0,
+        "amount": 8326800.0
+      }
+    ],
+    "sub_total_amount": 53813800.0,
+    "discount": 0.0,
+    "down_payment": null,
+    "taxable_base": 49329317.0,
+    "tax_amount": 5919518.0,
+    "luxury_goods_sales_tax": 0.0,
+    "signer_name": "SUWAYANTO WANGGANA"
+  },
+  "expectedDecision": {
+    "status": "matched_high_confidence",
+    "reason": "all_required_fields_are_readable"
+  }
+}

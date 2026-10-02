@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "documentType": "unknown",
+      "classificationConfidence": 0.81,
+      "rawText": "PAD/FR/LAS/00/011\r\nPT. HINO MOTORS MANUFACTURING INDONESIA\r\nT\r\nBD C LOGISTIC CONTROL DIVISION | DELIVERY NOTE\r\n1 | OP. DATE :14/09/2026 - 07:00/1\r\nISO 14001 | 040\r\nBUREAU VERITAS | 264\r\nCertification | 0\r\nCERTIFICATE NUMBER: THAA000398\r\nSUPP. COD : 0922 | S. PLACE : Factory 2/SMALL/02 | NO | : 2092002217\r\nNAME | : INTERGLOBAL ELECTRIC PART DEL. DATE : 15/09/2026 | PAGE | : 1/1\r\nC. ISSUE :1-1-1 | TIME/SEQ : 07:30/1 | PROCESS NO : 001\r\nTOTAL | :21\r\nNO Supply Adress Part | Part No. | Uniq No. | Part Name | Total Pcsl Total Remarks\r\nArea | Pack Pack Qty\r\n1 | CHS | CR03-03-03 84310-F1020-00 | IEP005 SWITCH ASSY,TURN SIGNA | 20 | 5 | 100\r\n2 | L16 | TL04-02-03 84332-F1010-00 | IEP006 SWITCH,HAZARD WARNING | 1 | 120 | 120\r\nQ\r\n89\r\nPT. HINO MOTORS MANUFACTURIN& INDONEST | SUPPLIER\r\nCONTROL MAN | RECEIVERECEIVED ED | APPROVED | PREPARED | RECEIVER D.N &\r\nS. | KBN\r\n? 15 SEP 2026 14\r\nJ | 15 | n\r\nan | Jn 001 S | C\r\nFahLELEeC | LREIOTALES\r\n1. Putih (Original): SUPPLER 2. Merah (Copy) : Logistic HMMl 3. Biru (Copy) : SUPPLIER\r\nCS Dipindai dengan CamScanner"
+    },
+    {
+      "pageNumber": 2,
+      "documentType": "deliveryNote",
+      "classificationConfidence": 1,
+      "rawText": "PT. INTERGLOBAL ELECTRIC PARTS\r\n2 | Gresik, | 15 September 2026\r\nJI. May. Jend Sungkono No. 8 | Kepada Yth. | PT. HINO MOTORS MANUFACTURING\r\nSegoromadu, GRESIK - 61123 | INDONESIA\r\nPhone : (031) 3984373, 3984383, Fax : (031) 3984393 | Kawasan Industri Kota Bukit Indah\r\nBlok D1 NO. 1, Purwakarta\r\nSURAT JALAN NO. 2182 / A/ IX / 26\r\nBersama kendaraan Colt Diesel No. Polisi ARMAs kami kirimkan barang2 yang tsb dibawah ini :\r\nBanyaknya | NAMA BARANG | Keterangan\r\nD/N N0. 2092002217\r\n100 Pcs SWITCH ASSY, TURN SIGNAL | 84310-F1020-00 | 20 Box\r\n120 Pcs SWITCH, HAZARD WARNING SIGNAL | 84332-F1010-00 | 1 Box\r\nFRM-IC-09/REV.0 8 9 | Total : | 21 Box\r\nBarang-barang R ma dalar | daan baik dan ukuran cukup.\r\n5\r\nRECEIVED | Hormat kami,\r\n2\r\nU 15,SEP 2026 15 SEP 2026 14\r\n6\r\nPENERYS | a | Sales Staff Sales Staff\r\n12 02 à\r\ncs Dipindai dengan CamScanner"
+    },
+    {
+      "pageNumber": 3,
+      "documentType": "unknown",
+      "classificationConfidence": 0.81,
+      "rawText": "PT. HINO MOTORS | Form: PAD/FR-LAS-00/002\r\nINDONESIA MANUFACTURING | Goods Receive Note\r\nPlant Administration Division | (GRN)\r\nHINO Logistic Department\r\nReceipt Number | : GRN2609005971 | Receipt Date | : 15-Sep-2026\r\nHMMI Delivery Note : 2092002217 | Supplier Delivery Note\r\nSupplier Code : 0922\r\nSupplier Name : INTERGLOBAL ELECTRIC PARTS PT.\r\nNo | Part Number | Part Name | Unique No | QTY\r\n84310-F1020-00 | SWITCH ASSY,TURN SIGNA | IEP005 | 100\r\n2 | 84332-F1010-00 | SWITCH,HAZARD WARNING | IEP006 | 120\r\nDANUE Received By\r\nHINO Stamp & Sigy\r\nPrint Date : 15-Sep-26 | REV.00\r\nPage 1 of 1\r\nCS Dipindai dengan CamScanner"
+    }
+  ]
+}

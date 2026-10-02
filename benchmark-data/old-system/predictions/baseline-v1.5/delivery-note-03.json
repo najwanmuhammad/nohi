@@ -1,0 +1,69 @@
+{
+  "documentId": "delivery-note-03",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageType": "delivery_note",
+      "logicalDocumentId": "delivery-note-03",
+      "classificationConfidence": 1
+    }
+  ],
+  "ocrText": "PT. OKAYA INDONESIA\r\nOKAYA | MidPlaza II Building, 24 Floor\r\nJl. Jendral Sudirman,Kav. 10-11, Jakarta 10220\r\nTelp : (021) 571 - 9725 Fax : (021) 572 - 4725\r\nDELIVERY ORDER\r\nTo : PT. Hino Motors Manufacturing Indonesia | Date | 02-Sep-26\r\nGedung Wisma Indomobil II JI. MT. Haryono Kav 9 | Number . | DO26004923\r\nBidara China Jatinegara Jakarta Timur DKI Jakarta | P/O No . 2026/2128\r\nDated . . 28-Jul-26\r\nTel : (118) (0264) 351 911 Fax : (118) (0264) 351755/\r\nE ECURO\r\nDear Sirs,\r\nWe are pleased to delivery as follows :\r\nNo. | Description | Quantity\r\n1 | WW-230E (PAINT KILLER) | 100 | KG\r\n2 | WW-28 (COAGULANT) | 40 | KG\r\nω | K-780 (PAINT FLOC) | 40 | KG\r\nK\r\nTOTAL . . | 180 | KG\r\nANUE\r\nGoodsRéceives | Company Stamp and\r\nGood Order Con lition | Signature of Supplier\r\n980 0 2 $EP 2026 VI\r\nPT. OKAYA LDONESIA\r\nM\r\nCustomer's Stamp & Signature / Date LUMLOGIS | Final Page... (1/1) | Authorize Signatured",
+  "extraction": {
+    "supplier_name": "PT. OKAYA INDONESIA",
+    "delivery_note_number": "DO26004923",
+    "delivery_note_date": "2026-07-28",
+    "items": [
+      {
+        "part_number": "WW-230E",
+        "part_name": "(PAINT KILLER)",
+        "quantity": 100,
+        "unit": null,
+        "price": null,
+        "amount": null
+      },
+      {
+        "part_number": "WW-28",
+        "part_name": "(COAGULANT)",
+        "quantity": 40,
+        "unit": null,
+        "price": null,
+        "amount": null
+      },
+      {
+        "part_number": "K-780",
+        "part_name": "(PAINT FLOC)",
+        "quantity": 40,
+        "unit": null,
+        "price": null,
+        "amount": null
+      },
+      {
+        "part_number": "10-11",
+        "part_name": ", Jakarta",
+        "quantity": 10220,
+        "unit": null,
+        "price": null,
+        "amount": null
+      },
+      {
+        "part_number": "P/O",
+        "part_name": "No . 2026/",
+        "quantity": 2128,
+        "unit": null,
+        "price": null,
+        "amount": null
+      }
+    ]
+  },
+  "decision": {
+    "status": "needs_review",
+    "reason": "baseline_v1_5_has_no_hes_matching_output"
+  },
+  "runtime": {},
+  "baselineMetadata": {
+    "sourceExtract": "delivery-note3-extract.json",
+    "sourceClean": "delivery-note3-clean.json",
+    "cleanStatus": "cleaned"
+  }
+}

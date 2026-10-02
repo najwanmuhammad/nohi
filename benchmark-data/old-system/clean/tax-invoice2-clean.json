@@ -1,0 +1,94 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "documentType": "taxInvoice",
+      "status": "cleaned",
+      "data": {
+        "documentType": "taxInvoice",
+        "headerFields": {
+          "supplier_name": "RUKUN SEJAHTERA TEKNIK",
+          "tax_invoice_number": "04002600287468854",
+          "tax_invoice_date": "21 Juli 2026",
+          "sub_total_amount": "700.000,00",
+          "discount": null,
+          "down_payment": null,
+          "taxable_base": "641.667,00",
+          "tax_amount": "77.000,00",
+          "luxury_goods_sales_tax": null,
+          "signer_name": "RICKY ANGKAWIDJAJA"
+        },
+        "lineItems": [],
+        "confidence": 0.47,
+        "requiresReview": true,
+        "warnings": [
+          "signer_name ditolak karena tidak ditemukan dalam OCR.",
+          "Ringkasan e-Faktur divalidasi dengan subtotal item dan rasio DPP/PPN.",
+          "Line item kosong atau mempunyai field kritis yang belum ditemukan."
+        ],
+        "evidence": [
+          {
+            "canonicalField": "sub_total_amount",
+            "value": "700.000,00",
+            "sourceText": "700.000,00",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "taxable_base",
+            "value": "641.667,00",
+            "sourceText": "641.667,00",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "tax_amount",
+            "value": "77.000,00",
+            "sourceText": "77.000,00",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "tax_invoice_number",
+            "value": "04002600287468854",
+            "sourceText": "Kode dan Nomor Seri Faktur Pajak: 04002600287468854",
+            "confidence": 1,
+            "method": "label_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "supplier_name",
+            "value": "RUKUN SEJAHTERA TEKNIK",
+            "sourceText": "Pengusaha Kena Pajak:\r\nNama : RUKUN SEJAHTERA TEKNIK",
+            "confidence": 1,
+            "method": "label_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "tax_invoice_date",
+            "value": "21 Juli 2026",
+            "sourceText": "21 Juli 2026",
+            "confidence": 1,
+            "method": "last_printed_date_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "signer_name",
+            "value": "RICKY ANGKAWIDJAJA",
+            "sourceText": "RICKY ANGKAWIDJAJA\r\n",
+            "confidence": 0.95,
+            "method": "signature_area_rule",
+            "lineItemIndex": null
+          }
+        ]
+      },
+      "message": null
+    }
+  ],
+  "cleanedPageCount": 1,
+  "skippedPageCount": 0,
+  "failedPageCount": 0
+}

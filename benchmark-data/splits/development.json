@@ -1,0 +1,16 @@
+{
+  "name": "development",
+  "purpose": "Model selection, prompt/rule development, and regression debugging.",
+  "supplierGroups": ["akebono", "rukun", "okaya"],
+  "documentIds": [
+    "delivery-note-01",
+    "invoice-01",
+    "tax-invoice-01",
+    "delivery-note-02",
+    "invoice-02",
+    "tax-invoice-02",
+    "delivery-note-03",
+    "invoice-03",
+    "tax-invoice-03"
+  ]
+}

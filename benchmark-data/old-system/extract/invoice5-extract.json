@@ -1,0 +1,16 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "documentType": "invoice",
+      "classificationConfidence": 1,
+      "rawText": "i\r\nFAKTUR PENJUALAN\r\nNO. FAKTUR PENJUALAN : 1790-IEP-IX-26 | No. Order : 0922/LDT/IX/2026\r\nPENGUSAHA KENA PAJAK\r\nNama | : PT. INTERGLOBAL ELECTRIC PARTS\r\nAlamat | : JL. Mayjend. Sungkono No.8, Segoromadu, Gresik - 61123\r\nN.P.W.P | : 001.069.306.7-055.000 | .\r\nTanggal Pengukuhan PKP : 7 April 2006\r\nPembeli barang Kena Pajak/Penerima Jasa Kena Pajak\r\nNama | : PT. HINO MOTORS MANUFACTURING INDONESIA\r\nAlamat | : Gedung Wisma Indomobil II Jl. MT. Haryono Kav. O9, Bidara Cina Jatinegara\r\nJakarta Timur , DKI Jakarta - 13330\r\nN.P.W.P | :0010601433092000\r\nNo. | Nama Barang Kena Pajak / Jasa Kena Pajak | Harga Jual/Penggantian/\r\nUang Muka/Termijn (Rp)\r\n1 SWITCH ASSY, TURN SIGNAL (84310-F1020) | 100 PC @ Rp. | 454.870 | 45.487.000\r\n2 SWITCH, HAZARD WARNING SIGNAL (84332- | 120 PC @ Rp. | 69.390 | 8.326.800\r\nF1010)\r\nFP : 04002600381077552\r\nJumlah Harga Jual / Penggantian / Hang Muka | 53.813.800\r\nDikurangi Potongan Harga | 0\r\nDikurangi Uang Muka yang telah diterima | O\r\nDasar Pengenaan Pajak | 49.329.317\r\nJumlah PPN (Pajak Pertambahan Nilai) | 5.919.518\r\nNo. SJ. : 2182/A/IX/26 | Gresik, 15 September 2026\r\nJumlah : Rp 59.733.318\r\nTerbilang : LIMA PULUH SEMBILAN JUTA TUJUH RATUS TIGA PULUH TIGA | TEMPEI ETERA\r\nRIBU TIGA RATUS DELAPAN BELAS RUPIAH | P | 05080160\r\nTgl. Jatuh Tempo: 15 October 2026 | NEGO Endang Mawarti\r\nGM. Divisi Administrasi\r\n1\r\n3\r\n*) Coret yang tidak perlu"
+    },
+    {
+      "pageNumber": 2,
+      "documentType": "unknown",
+      "classificationConfidence": 0.67,
+      "rawText": "LUN | Form No: PUD/FR-PRC-02/002\r\nPT. HINO MOTORS MANUFACTURING INDONESIA\r\nKawasan Industri Kota Bukit Indah Blok D1 No.1\r\nPurwakarta 41181- Jawa Barat - INDONESIA\r\nPhone :(62-264) 351 911\r\nFax : (62-264) 351 755\r\nTo : | Date | 10-August-2026\r\nPT. INTERGLOBALELECTRIC PART | PO No. | 0922/LDT/IX/2026\r\nJl. Mayjend. Sungkono No. 8\r\nSegoromadu\r\nGresik - Jawa Timur\r\nAttn : Mrs. Christantie\r\nMarketing Manager\r\nRe : Monthly Regular Order For September 2026 Production\r\nDear Sir /Madam's,\r\nPlease kindly find \"the following orders, to which your attention will be highly appreciated\"\r\nLPOP September 2026 for :\r\nX 1. Monthly firmed order and five months ordering plan\r\n□ 2.MSP Export Component Order\r\n□ 3. Others (Please see the attached)\r\nSend by :\r\nLPOP (Firm) Send by Email on | 12-August-2026\r\nHMMi Cover Letter (Firm) Send by Email on | 12-August-2026\r\nThank you for your kind attention and cooperation.\r\nYours faithfully\r\nPT. HINO MOTORS MANUFACTURING INDONESIA\r\nPurwakarta - Indonesia\r\nChecked | Approved\r\n10\r\n08 7o\r\ne\r\nTony Amanto | R Indra Ariefgraha N\r\nDept. Head | Div. Head\r\nProcurement Dept. | Purchasing Division\r\nCc : 1. Finance & AccountingDivision\r\n2. File\r\nRevisi 01"
+    }
+  ]
+}

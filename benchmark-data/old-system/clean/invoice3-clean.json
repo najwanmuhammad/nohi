@@ -1,0 +1,236 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "documentType": "invoice",
+      "status": "cleaned",
+      "data": {
+        "documentType": "invoice",
+        "headerFields": {
+          "supplier_name": "PT. OKAYA INDONESIA",
+          "invoice_number": "SI2609039",
+          "invoice_date": "2 September 2026",
+          "sub_total_amount": "20,960,000.00",
+          "taxable_base": "20,960,000.00",
+          "tax_amount": "2,305,600.00",
+          "total_amount": "23,265,600.00",
+          "signer_name": null,
+          "signer_position": null
+        },
+        "lineItems": [
+          {
+            "partNumber": "WW-230E",
+            "partName": "(PAINT KILLER)",
+            "quantity": "100.00",
+            "price": "138,000.00",
+            "amount": "13,800,000.00"
+          },
+          {
+            "partNumber": "WW-28",
+            "partName": "(COAGULANT)",
+            "quantity": "40.00",
+            "price": "41,000.00",
+            "amount": "1,640,000.00"
+          },
+          {
+            "partNumber": "K-780",
+            "partName": "(PAINT FLOC)",
+            "quantity": "40.00",
+            "price": "138,000.00",
+            "amount": "5,520,000.00"
+          }
+        ],
+        "confidence": 0.9075,
+        "requiresReview": false,
+        "warnings": [
+          "line_items[0] diperbaiki menggunakan quantity x price = amount pada baris OCR yang sama.",
+          "line_items[1] diperbaiki menggunakan quantity x price = amount pada baris OCR yang sama.",
+          "line_items[2] diperbaiki menggunakan quantity x price = amount pada baris OCR yang sama.",
+          "3 line item divalidasi dari baris tabel OCR."
+        ],
+        "evidence": [
+          {
+            "canonicalField": "invoice_number",
+            "value": "SI2609039",
+            "sourceText": "SI2609039",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "sub_total_amount",
+            "value": "20,960,000.00",
+            "sourceText": "20,960,000.00",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "taxable_base",
+            "value": "20,960,000.00",
+            "sourceText": "20,960,000.00",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "tax_amount",
+            "value": "2,305,600.00",
+            "sourceText": "2,305,600.00",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "supplier_name",
+            "value": "PT. OKAYA INDONESIA",
+            "sourceText": "PT. OKAYA INDONESIA",
+            "confidence": 1,
+            "method": "invoice_supplier_header_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "invoice_date",
+            "value": "2 September 2026",
+            "sourceText": "2 September 2026",
+            "confidence": 1,
+            "method": "invoice_issue_date_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "total_amount",
+            "value": "23,265,600.00",
+            "sourceText": "Total Amount | 23,265,600.00",
+            "confidence": 1,
+            "method": "invoice_total_arithmetic_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "WW-230E",
+            "sourceText": "WW-230E",
+            "confidence": 1,
+            "method": "invoice_row_arithmetic",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "(PAINT KILLER)",
+            "sourceText": "(PAINT KILLER)",
+            "confidence": 1,
+            "method": "invoice_row_arithmetic",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "WW-28",
+            "sourceText": "WW-28",
+            "confidence": 1,
+            "method": "invoice_row_arithmetic",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "(COAGULANT)",
+            "sourceText": "(COAGULANT)",
+            "confidence": 1,
+            "method": "invoice_row_arithmetic",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "K-780",
+            "sourceText": "K-780",
+            "confidence": 1,
+            "method": "invoice_row_arithmetic",
+            "lineItemIndex": 2
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "(PAINT FLOC)",
+            "sourceText": "(PAINT FLOC)",
+            "confidence": 1,
+            "method": "invoice_row_arithmetic",
+            "lineItemIndex": 2
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "100.00",
+            "sourceText": "A WW-230E (PAINT KILLER) | 100.00 KG | 138,000.00 | 13,800,000.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "price",
+            "value": "138,000.00",
+            "sourceText": "A WW-230E (PAINT KILLER) | 100.00 KG | 138,000.00 | 13,800,000.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "amount",
+            "value": "13,800,000.00",
+            "sourceText": "A WW-230E (PAINT KILLER) | 100.00 KG | 138,000.00 | 13,800,000.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "40.00",
+            "sourceText": "WW-28 (COAGULANT) | 40.00 KG | 41,000.00 | 1,640,000.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "price",
+            "value": "41,000.00",
+            "sourceText": "WW-28 (COAGULANT) | 40.00 KG | 41,000.00 | 1,640,000.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "amount",
+            "value": "1,640,000.00",
+            "sourceText": "WW-28 (COAGULANT) | 40.00 KG | 41,000.00 | 1,640,000.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "40.00",
+            "sourceText": "ωN K-780 (PAINT FLOC) | 40.00 KG | 138,000.00 | 5,520,000.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 2
+          },
+          {
+            "canonicalField": "price",
+            "value": "138,000.00",
+            "sourceText": "ωN K-780 (PAINT FLOC) | 40.00 KG | 138,000.00 | 5,520,000.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 2
+          },
+          {
+            "canonicalField": "amount",
+            "value": "5,520,000.00",
+            "sourceText": "ωN K-780 (PAINT FLOC) | 40.00 KG | 138,000.00 | 5,520,000.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 2
+          }
+        ]
+      },
+      "message": null
+    }
+  ],
+  "cleanedPageCount": 1,
+  "skippedPageCount": 0,
+  "failedPageCount": 0
+}

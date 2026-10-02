@@ -1,0 +1,38 @@
+{
+  "documentId": "tax-invoice-02",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageType": "tax_invoice",
+      "logicalDocumentId": "tax-invoice-02",
+      "classificationConfidence": 1
+    }
+  ],
+  "ocrText": "Faktur Pajak\r\nNama: RUKUN SEJAHTERA TEKNIK\r\nAlamat: KOMPLEK PERTOKOAN GLODOK\r\nJAYA NO.80/81, KOTA ADM. JAKARTA BARAT\r\n#0023212202038000000000\r\nKode dan Nomor Seri Faktur Pajak: 04002600287468854\r\nPengusaha Kena Pajak:\r\nNama : RUKUN SEJAHTERA TEKNIK\r\nAlamat : KOMPLEK PERTOKOAN GLODOK JAYA NO.80/81, RT 001, RW 006, MANGGA BESAR, TAMAN SARI,\r\nKOTA ADM. JAKARTA BARAT, DKI JAKARTA 11180\r\nNPWP : 0023212202038000\r\nPembeli Barang Kena Pajak/Penerima Jasa Kena Pajak:\r\nNama : HINO MOTORS MANUFACTURING INDONESIA\r\nAlamat : GEDUNG WISMA INDOMOBIL I JL MT. HARYONO KAV 9 , RT 000,RW 000, BIDARA CINA,\r\nJATINEGARA, KOTA ADM. JAKARTA TIMUR, DKI JAKARTA 13330 #0010601433092000000000\r\nNPWP : 0010601433092000\r\nNIK : -\r\nNomor Paspor : -\r\nIdentitas Lain : -\r\nEmail: -\r\nKode | Harga Jual / Penggantian /\r\nNo. Barang/ | Nama Barang Kena Pajak / Jasa Kena Pajak | Uang Muka / Termin\r\nJasa | (Rp)\r\n3M 311-1250 EARsoft Yellow Neons Earplugs, Regular Size\r\n(Pack. 10/200/2000)-7000002306\r\n000000 Rp 7.000,00 x 100,00 Lainnya | 700.000,00\r\nPotongan Harga = Rp 0,00\r\nPPnBM (0,00%) = Rp 0,00\r\nHarga Jual / Penggantian / Uang Muka / Termin | 700.000,00\r\nDikurangi Potongan Harga | 0,00\r\nDikurangi Uang Muka yang telah diterima\r\nDasar Pengenaan Pajak | 641.667,00\r\nJumlah PPN (Pajak Pertambahan Nilai) | 77.000,00\r\nJumlah PPnBM (Pajak Penjualan atas Barang Mewah) | 0,00\r\nSesuai dengan ketentuan yang berlaku, Direktorat Jenderal Pajak mengatur bahwa Faktur Pajak ini telah ditandatangani\r\nsecara elektronik sehingga tidak diperlukan tanda tangan basah pada Faktur Pajak ini.\r\nKOTA ADM. JAKARTA BARAT, 21 Juli 2026\r\nDitandatangani secara elektronik\r\nRICKY ANGKAWIDJAJA\r\n(Referensi: NO INVOICE : IN00260705553)\r\nPemberitahuan: Faktur Pajak ini telah dilaporkan ke Direktorat Jenderal Pajak dan telah memperoleh persetujuan sesuai | 1 dari 1\r\ndengan keadaan yang sebenarnya dan/atau sesungguhnya sebagaimana dimaksud dalam Pasal 13 ayat (9) UU PPN dengan ketentuan peraturan perpajakan yang berlaku. PERiNGATAN: PKP yang membuat Faktur Pajak yang tidak sesua\r\ndikenai sanksi sesuai dengan Pasal 14 ayat (4) UU KUP.",
+  "extraction": {
+    "supplier_name": "RUKUN SEJAHTERA TEKNIK",
+    "tax_invoice_number": "02600287468854",
+    "tax_invoice_date": "2026-07-21",
+    "sub_total_amount": 700000,
+    "discount": null,
+    "down_payment": null,
+    "taxable_base": 641667,
+    "tax_amount": 77000,
+    "luxury_goods_sales_tax": null,
+    "signer_name": "RICKY ANGKAWIDJAJA",
+    "items": [],
+    "tax_invoice_full_number": "04002600287468854",
+    "trans_type": "04",
+    "tax_replc": "0"
+  },
+  "decision": {
+    "status": "needs_review",
+    "reason": "baseline_v1_5_has_no_hes_matching_output"
+  },
+  "runtime": {},
+  "baselineMetadata": {
+    "sourceExtract": "tax-invoice2-extract.json",
+    "sourceClean": "tax-invoice2-clean.json",
+    "cleanStatus": "cleaned"
+  }
+}

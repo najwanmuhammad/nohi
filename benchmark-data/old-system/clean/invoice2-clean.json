@@ -1,0 +1,381 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "documentType": "invoice",
+      "status": "cleaned",
+      "data": {
+        "documentType": "invoice",
+        "headerFields": {
+          "supplier_name": null,
+          "invoice_number": "SO260605732",
+          "invoice_date": "21 July 2026",
+          "sub_total_amount": null,
+          "taxable_base": "641,666.67",
+          "tax_amount": "77,000.00",
+          "total_amount": "777,000.00",
+          "signer_name": null,
+          "signer_position": null
+        },
+        "lineItems": [
+          {
+            "partNumber": "7000002306",
+            "partName": "Yellow Neons Earplugs, Regular Size (Pack. 10/200/2000)",
+            "quantity": "100",
+            "price": "7,000.00",
+            "amount": "700,000.00"
+          },
+          {
+            "partNumber": "311-1250",
+            "partName": "EARsoft",
+            "quantity": "100",
+            "price": "7,000.00",
+            "amount": "700,000.00"
+          }
+        ],
+        "confidence": 0.79,
+        "requiresReview": true,
+        "warnings": [
+          "supplier_name ditolak karena tidak ditemukan dalam OCR.",
+          "line_items[0] diperbaiki menggunakan quantity x price = amount pada baris OCR yang sama.",
+          "1 line item divalidasi dari baris tabel OCR.",
+          "sub_total_amount dikosongkan karena tidak sama dengan jumlah amount line item.",
+          "Satu atau lebih header field kritis tidak ditemukan."
+        ],
+        "evidence": [
+          {
+            "canonicalField": "supplier_name",
+            "value": null,
+            "sourceText": null,
+            "confidence": 0,
+            "method": "rejected_ungrounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "invoice_number",
+            "value": "SO260605732",
+            "sourceText": "SO260605732",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "tax_amount",
+            "value": "77,000.00",
+            "sourceText": "77,000.00",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "7000002306",
+            "sourceText": "7000002306",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "Yellow Neons Earplugs, Regular Size (Pack. 10/200/2000)",
+            "sourceText": "Yellow Neons Earplugs, Regular Size (Pack. 10/200/2000)",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "invoice_date",
+            "value": "21 July 2026",
+            "sourceText": "21 July 2026",
+            "confidence": 1,
+            "method": "invoice_issue_date_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "taxable_base",
+            "value": "641,666.67",
+            "sourceText": "REK NO: 000074531252 | DPP Lain-lain : | 641,666.67",
+            "confidence": 1,
+            "method": "invoice_total_label_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "total_amount",
+            "value": "777,000.00",
+            "sourceText": "Grand Total : | 777,000.00",
+            "confidence": 1,
+            "method": "invoice_total_arithmetic_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "100",
+            "sourceText": "1 TB60573N 3M 311-1250 EARsoft | 100 pair | 7,000.00 | 700,000.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "price",
+            "value": "7,000.00",
+            "sourceText": "1 TB60573N 3M 311-1250 EARsoft | 100 pair | 7,000.00 | 700,000.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "amount",
+            "value": "700,000.00",
+            "sourceText": "1 TB60573N 3M 311-1250 EARsoft | 100 pair | 7,000.00 | 700,000.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "311-1250",
+            "sourceText": "311-1250",
+            "confidence": 1,
+            "method": "invoice_row_arithmetic",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "EARsoft",
+            "sourceText": "EARsoft",
+            "confidence": 1,
+            "method": "invoice_row_arithmetic",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "100",
+            "sourceText": "1 TB60573N 3M 311-1250 EARsoft | 100 pair | 7,000.00 | 700,000.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "price",
+            "value": "7,000.00",
+            "sourceText": "1 TB60573N 3M 311-1250 EARsoft | 100 pair | 7,000.00 | 700,000.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "amount",
+            "value": "700,000.00",
+            "sourceText": "1 TB60573N 3M 311-1250 EARsoft | 100 pair | 7,000.00 | 700,000.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 1
+          }
+        ]
+      },
+      "message": null
+    },
+    {
+      "pageNumber": 2,
+      "documentType": "taxInvoice",
+      "status": "cleaned",
+      "data": {
+        "documentType": "taxInvoice",
+        "headerFields": {
+          "supplier_name": "RUKUN SEJAHTERA TEKNIK",
+          "tax_invoice_number": "04002600287468854",
+          "tax_invoice_date": "21 Juli 2026",
+          "sub_total_amount": "700.000,00",
+          "discount": null,
+          "down_payment": null,
+          "taxable_base": "641.667,00",
+          "tax_amount": "77.000,00",
+          "luxury_goods_sales_tax": null,
+          "signer_name": "RICKY ANGKAWIDJAJA"
+        },
+        "lineItems": [],
+        "confidence": 0.47,
+        "requiresReview": true,
+        "warnings": [
+          "Ringkasan e-Faktur divalidasi dengan subtotal item dan rasio DPP/PPN.",
+          "Line item kosong atau mempunyai field kritis yang belum ditemukan."
+        ],
+        "evidence": [
+          {
+            "canonicalField": "sub_total_amount",
+            "value": "700.000,00",
+            "sourceText": "700.000,00",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "taxable_base",
+            "value": "641.667,00",
+            "sourceText": "641.667,00",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "tax_amount",
+            "value": "77.000,00",
+            "sourceText": "77.000,00",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "tax_invoice_number",
+            "value": "04002600287468854",
+            "sourceText": "Kode dan Nomor Seri Faktur Pajak: 04002600287468854",
+            "confidence": 1,
+            "method": "label_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "supplier_name",
+            "value": "RUKUN SEJAHTERA TEKNIK",
+            "sourceText": "Pengusaha Kena Pajak:\r\nNama : RUKUN SEJAHTERA TEKNIK",
+            "confidence": 1,
+            "method": "label_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "tax_invoice_date",
+            "value": "21 Juli 2026",
+            "sourceText": "21 Juli 2026",
+            "confidence": 1,
+            "method": "last_printed_date_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "signer_name",
+            "value": "RICKY ANGKAWIDJAJA",
+            "sourceText": "RICKY ANGKAWIDJAJA\r\n",
+            "confidence": 0.95,
+            "method": "signature_area_rule",
+            "lineItemIndex": null
+          }
+        ]
+      },
+      "message": null
+    },
+    {
+      "pageNumber": 3,
+      "documentType": "deliveryNote",
+      "status": "failed",
+      "data": null,
+      "message": "Ollama tidak menyelesaikan cleaning dalam batas waktu."
+    },
+    {
+      "pageNumber": 4,
+      "documentType": "invoice",
+      "status": "cleaned",
+      "data": {
+        "documentType": "invoice",
+        "headerFields": {
+          "supplier_name": "PT. HINO MOTORS MANUFACTURING INDONESIA",
+          "invoice_number": "diterima",
+          "invoice_date": "24 June, 2026",
+          "sub_total_amount": "2,100,000.00",
+          "taxable_base": null,
+          "tax_amount": null,
+          "total_amount": null,
+          "signer_name": null,
+          "signer_position": null
+        },
+        "lineItems": [
+          {
+            "partNumber": "10030290",
+            "partName": "3",
+            "quantity": "300.00",
+            "price": "7,000.00",
+            "amount": "2,100,000.00"
+          }
+        ],
+        "confidence": 0.7689,
+        "requiresReview": true,
+        "warnings": ["Satu atau lebih header field kritis tidak ditemukan."],
+        "evidence": [
+          {
+            "canonicalField": "invoice_date",
+            "value": "24 June, 2026",
+            "sourceText": "24 June, 2026",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "sub_total_amount",
+            "value": "2,100,000.00",
+            "sourceText": "2,100,000.00",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "10030290",
+            "sourceText": "10030290",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "3",
+            "sourceText": "3",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "invoice_number",
+            "value": "diterima",
+            "sourceText": "Invoice diterima",
+            "confidence": 1,
+            "method": "invoice_number_label_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "supplier_name",
+            "value": "PT. HINO MOTORS MANUFACTURING INDONESIA",
+            "sourceText": "PT. HINO MOTORS MANUFACTURING INDONESIA",
+            "confidence": 1,
+            "method": "invoice_supplier_header_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "300.00",
+            "sourceText": "1 10030290 EAR PLUG 3M | 300.00 PCS | IDR | 7,000.00 | 2,100,000.00 200 200 200",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "price",
+            "value": "7,000.00",
+            "sourceText": "1 10030290 EAR PLUG 3M | 300.00 PCS | IDR | 7,000.00 | 2,100,000.00 200 200 200",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "amount",
+            "value": "2,100,000.00",
+            "sourceText": "1 10030290 EAR PLUG 3M | 300.00 PCS | IDR | 7,000.00 | 2,100,000.00 200 200 200",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 0
+          }
+        ]
+      },
+      "message": null
+    }
+  ],
+  "cleanedPageCount": 3,
+  "skippedPageCount": 0,
+  "failedPageCount": 1
+}

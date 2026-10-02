@@ -1,0 +1,23 @@
+{
+  "documentId": "delivery-note-02",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageType": "delivery_note",
+      "logicalDocumentId": "delivery-note-02",
+      "classificationConfidence": 1
+    }
+  ],
+  "ocrText": "1 RUKUN | Page No 1 of 1\r\nSo : S0260605732 | Packing Slip\r\nPoRef : PO:2026/1719 | No : PS00260705120\r\nTo: | Date : 07/21/2026\r\nDelivery addreSSs :KAWASAN INDUSTRI KOTA BUKIT\r\nHINO MOTORS MANUFACTURING INDONESIA PT | INDAH BLOK D-1 NO. 1 BUNGURSAR\r\nKAWASAN INDUSTRI KOTA BUKIT INDAH BLOK | BUNGURSARI PURWAKARTA JAWA\r\nD-1 NO. 1 BUNGURSARI, BUNGURSARI | BARAT, PURWAKARTA, JABAR, IDN\r\nPURWAKARTA JAWA BARAT, PURWAKARTA,\r\nJABAR, IDN\r\nTelepon : 0264-351911 ext.278\r\n.\r\nWarehouse : KRW\r\nNPWP: 0010601433092000 | Mode Of Delivery : Kirim\r\nSo Type : TERM\r\nNo | Plu | Description | Qty | Unit | Keterangan\r\n1 | TB60573N 3M 311-1250 EARsoft Yellow Neons | 100 √ | pair\r\nEarplugs, Regular Size (Pack\r\n10/200/2000)-7000002306\r\nEkspidisi\r\nAlamat | -. | 1x\r\nPhone | ..\r\nNotes | •.\r\nDriver | ..\r\nREQUEST | 1416+16\r\nR | 30 er 1118//19 | Prepared, | Approved,\r\nCo | VED | Wo U\r\n10 | E ROMLO 02 | PT. RUKU KARAWANG EJAHTÉRA TEKNIK\r\n6 | 21\r\n8 | C | d$",
+  "extraction": {},
+  "decision": {
+    "status": "needs_review",
+    "reason": "baseline_v1_5_has_no_hes_matching_output"
+  },
+  "runtime": {},
+  "baselineMetadata": {
+    "sourceExtract": "delivery-note2-extract.json",
+    "sourceClean": "delivery-note2-clean.json",
+    "cleanStatus": "missing_or_failed"
+  }
+}

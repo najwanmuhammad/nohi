@@ -1,0 +1,212 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "documentType": "deliveryNote",
+      "status": "cleaned",
+      "data": {
+        "documentType": "deliveryNote",
+        "headerFields": {
+          "supplier_name": "PT. OKAYA INDONESIA",
+          "delivery_note_number": "DO26004923",
+          "delivery_note_date": "28-Jul-26"
+        },
+        "lineItems": [
+          {
+            "partNumber": "WW-230E",
+            "partName": "(PAINT KILLER)",
+            "quantity": "100",
+            "price": null,
+            "amount": null
+          },
+          {
+            "partNumber": "WW-28",
+            "partName": "(COAGULANT)",
+            "quantity": "40",
+            "price": null,
+            "amount": null
+          },
+          {
+            "partNumber": "K-780",
+            "partName": "(PAINT FLOC)",
+            "quantity": "40",
+            "price": null,
+            "amount": null
+          },
+          {
+            "partNumber": "10-11",
+            "partName": ", Jakarta",
+            "quantity": "10220",
+            "price": null,
+            "amount": null
+          },
+          {
+            "partNumber": "P/O",
+            "partName": "No . 2026/",
+            "quantity": "2128",
+            "price": null,
+            "amount": null
+          }
+        ],
+        "confidence": 0.9967,
+        "requiresReview": false,
+        "warnings": [
+          "line_items[0].quantity ditolak karena tidak ditemukan dalam OCR.",
+          "line_items[1].quantity ditolak karena tidak ditemukan dalam OCR.",
+          "line_items[2].quantity ditolak karena tidak ditemukan dalam OCR.",
+          "5 line item divalidasi dari baris tabel OCR."
+        ],
+        "evidence": [
+          {
+            "canonicalField": "supplier_name",
+            "value": "PT. OKAYA INDONESIA",
+            "sourceText": "PT. OKAYA INDONESIA",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "delivery_note_number",
+            "value": "DO26004923",
+            "sourceText": "DO26004923",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "delivery_note_date",
+            "value": "28-Jul-26",
+            "sourceText": "28-Jul-26",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "10-11",
+            "sourceText": "10-11",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 3
+          },
+          {
+            "canonicalField": "part_name",
+            "value": ", Jakarta",
+            "sourceText": ", Jakarta",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 3
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "10220",
+            "sourceText": "10220",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 3
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "P/O",
+            "sourceText": "P/O",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 4
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "No . 2026/",
+            "sourceText": "No . 2026/",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 4
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "2128",
+            "sourceText": "2128",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 4
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "WW-230E",
+            "sourceText": "WW-230E",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "(PAINT KILLER)",
+            "sourceText": "(PAINT KILLER)",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "100",
+            "sourceText": "100",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "WW-28",
+            "sourceText": "WW-28",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "(COAGULANT)",
+            "sourceText": "(COAGULANT)",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "40",
+            "sourceText": "40",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "K-780",
+            "sourceText": "K-780",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 2
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "(PAINT FLOC)",
+            "sourceText": "(PAINT FLOC)",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 2
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "40",
+            "sourceText": "40",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 2
+          }
+        ]
+      },
+      "message": null
+    }
+  ],
+  "cleanedPageCount": 1,
+  "skippedPageCount": 0,
+  "failedPageCount": 0
+}

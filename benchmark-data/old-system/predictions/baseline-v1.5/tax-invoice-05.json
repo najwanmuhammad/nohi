@@ -1,0 +1,47 @@
+{
+  "documentId": "tax-invoice-05",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageType": "tax_invoice",
+      "logicalDocumentId": "tax-invoice-05",
+      "classificationConfidence": 1
+    }
+  ],
+  "ocrText": "Faktur Pajak\r\nNama: INTERGLOBAL ELECTRIC PARTS\r\nAlamat: JL.MAYJEN SUNGKONO NO.08 , KAB.\r\nGRESIK #0010693067055000000000\r\nKode dan Nomor Seri Faktur Pajak: 04002600381077552\r\nPengusaha Kena Pajak:\r\nNama : INTERGLOBAL ELECTRIC PARTS\r\nAlamat : JL.MAYJEN SUNGKONO NO.08 , RT 000, RW 000, SEGOROMADU, KEBOMAS, KAB. GRESIK, JAWA\r\nTIMUR 61123\r\nNPWP : 0010693067055000\r\nPembeli Barang Kena Pajak/Penerima Jasa Kena Pajak:\r\nNama : HINO MOTORS MANUFACTURING INDONESIA\r\nAlamat : GEDUNG WISMA INDOMOBIL II JL MT. HARYONO KAV 9 , RT 000, RW 000, BIDARA CINA\r\nJATINEGARA, KOTA ADM. JAKARTA TIMUR, DKI JAKARTA 13330 #0010601433092000000000\r\nNPWP : 0010601433092000\r\nNIK : -\r\nNomor Paspor : -\r\nIdentitas Lain : -\r\nEmail: -\r\nKode | Harga Jual / Penggantian /\r\nNo. | Barang/ | Nama Barang Kena Pajak / Jasa Kena Pajak | Uang Muka / Termin\r\nJasa | (Rp)\r\nSWITCH ASSY TURN SIGNAL ( 84310-F1020 )\r\n< | 000000 | Rp 454.870,00 x 100,00 Piece | 45.487.000,00\r\nPotongan Harga = Rp 0,00\r\nPPnBM (0,00%) = Rp 0,00\r\nSWITCH HAZARD WARNING SIGNAL (84332-F1010)\r\n2 | 000000 | Rp 69.390,00 x 120,00 Piece | 8.326.800,00\r\nPotongan Harga = Rp 0,00\r\nPPnBM (0,00%) = Rp 0,00\r\nHarga Jual / Penggantian / Uang Muka / Termin | 53.813.800,00\r\nDikurangi Potongan Harga | 0,00\r\nDikurangi Uang Muka yang telah diterima\r\nDasar Pengenaan Pajak | 49.329.317,00\r\nJumlah PPN (Pajak Pertambahan Nilai) | 5.919.518,00\r\nJumlah PPnBM (Pajak Penjualan atas Barang Mewah) | 0,00\r\nSesuai dengan ketentuan yang berlaku, Direktorat Jenderal Pajak mengatur bahwa Faktur Pajak ini telah ditandatangani\r\nsecara elektronik sehingga tidak diperlukan tanda tangan basah pada Faktur Pajak ini\r\neu | KAB. GRESIK, 15 September 2026\r\nDitandatangani secara elektronik\r\nSUWAYANTO WANGGANA\r\n(Referensi: FAKTUR PENJUALAN NO. 1790-IEP-IX-26)\r\nPemberitahuan: Faktur Pajak ini telah dilaporkan ke Direktorat Jenderal Pajak dan telah memperoleh persetujuan sesuai | 1 dari 1\r\ndengan keadaan yang sebenarnya dan/atau s dengan ketentuan peraturan perpajakan yang berlaku. PERINGATAN: PKP yang membuat Faktur Pajak yang tidak sesuai sungguhnya sebagaimana dimaksud dalam Pasal 13 ayat (9) UU PPN\r\ndikenai sanksi sesuai dengan Pasal 14 ayat (4) Uu KUP.",
+  "extraction": {
+    "supplier_name": "INTERGLOBAL ELECTRIC PARTS",
+    "tax_invoice_number": "02600381077552",
+    "tax_invoice_date": "2026-09-15",
+    "sub_total_amount": null,
+    "discount": null,
+    "down_payment": null,
+    "taxable_base": 53813800,
+    "tax_amount": 49329317,
+    "luxury_goods_sales_tax": null,
+    "signer_name": "SUWAYANTO WANGGANA",
+    "items": [
+      {
+        "part_number": "000,",
+        "part_name": "SWITCH HAZARD WARNING SIGNAL (84332-F1010)",
+        "quantity": 120,
+        "unit": null,
+        "price": 69390,
+        "amount": 8326800
+      }
+    ],
+    "tax_invoice_full_number": "04002600381077552",
+    "trans_type": "04",
+    "tax_replc": "0"
+  },
+  "decision": {
+    "status": "needs_review",
+    "reason": "baseline_v1_5_has_no_hes_matching_output"
+  },
+  "runtime": {},
+  "baselineMetadata": {
+    "sourceExtract": "tax-invoice5-extract.json",
+    "sourceClean": "tax-invoice5-clean.json",
+    "cleanStatus": "cleaned"
+  }
+}

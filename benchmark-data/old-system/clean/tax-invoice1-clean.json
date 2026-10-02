@@ -1,0 +1,157 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "documentType": "taxInvoice",
+      "status": "cleaned",
+      "data": {
+        "documentType": "taxInvoice",
+        "headerFields": {
+          "supplier_name": "AKEBONO BRAKE ASTRA INDONESIA",
+          "tax_invoice_number": "04002600343133156",
+          "tax_invoice_date": "07 Agustus 2026",
+          "sub_total_amount": "233.200,00",
+          "discount": null,
+          "down_payment": null,
+          "taxable_base": "213.767,00",
+          "tax_amount": "25.652,00",
+          "luxury_goods_sales_tax": null,
+          "signer_name": "FERRY YUDHI INDRABAYU"
+        },
+        "lineItems": [
+          {
+            "partNumber": "04905-37220",
+            "partName": null,
+            "quantity": "1,00",
+            "price": "63.480,00",
+            "amount": null
+          },
+          {
+            "partNumber": "04906-37440",
+            "partName": null,
+            "quantity": "4,00",
+            "price": "42.430,00",
+            "amount": null
+          }
+        ],
+        "confidence": 0.7146,
+        "requiresReview": true,
+        "warnings": [
+          "Ringkasan e-Faktur divalidasi dengan subtotal item dan rasio DPP/PPN.",
+          "Line item faktur pajak divalidasi dengan pola Rp price x quantity.",
+          "Line item kosong atau mempunyai field kritis yang belum ditemukan."
+        ],
+        "evidence": [
+          {
+            "canonicalField": "sub_total_amount",
+            "value": "233.200,00",
+            "sourceText": "233.200,00",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "taxable_base",
+            "value": "213.767,00",
+            "sourceText": "213.767,00",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "tax_amount",
+            "value": "25.652,00",
+            "sourceText": "25.652,00",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "tax_invoice_number",
+            "value": "04002600343133156",
+            "sourceText": "Kode dan Nomor Seri Faktur Pajak: 04002600343133156",
+            "confidence": 1,
+            "method": "label_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "supplier_name",
+            "value": "AKEBONO BRAKE ASTRA INDONESIA",
+            "sourceText": "Pengusaha Kena Pajak:\r\nNama : AKEBONO BRAKE ASTRA INDONESIA",
+            "confidence": 1,
+            "method": "label_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "tax_invoice_date",
+            "value": "07 Agustus 2026",
+            "sourceText": "07 Agustus 2026",
+            "confidence": 1,
+            "method": "last_printed_date_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "signer_name",
+            "value": "FERRY YUDHI INDRABAYU",
+            "sourceText": "FERRY YUDHI INDRABAYU\r\n",
+            "confidence": 0.95,
+            "method": "signature_area_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "04905-37220",
+            "sourceText": "04905-37220",
+            "confidence": 1,
+            "method": "tax_invoice_validated",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "1,00",
+            "sourceText": "1,00",
+            "confidence": 1,
+            "method": "tax_invoice_validated",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "price",
+            "value": "63.480,00",
+            "sourceText": "63.480,00",
+            "confidence": 1,
+            "method": "tax_invoice_validated",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "04906-37440",
+            "sourceText": "04906-37440",
+            "confidence": 1,
+            "method": "tax_invoice_validated",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "4,00",
+            "sourceText": "4,00",
+            "confidence": 1,
+            "method": "tax_invoice_validated",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "price",
+            "value": "42.430,00",
+            "sourceText": "42.430,00",
+            "confidence": 1,
+            "method": "tax_invoice_validated",
+            "lineItemIndex": 1
+          }
+        ]
+      },
+      "message": null
+    }
+  ],
+  "cleanedPageCount": 1,
+  "skippedPageCount": 0,
+  "failedPageCount": 0
+}

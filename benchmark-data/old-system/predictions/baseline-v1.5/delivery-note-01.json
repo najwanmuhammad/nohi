@@ -1,0 +1,77 @@
+{
+  "documentId": "delivery-note-01",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageType": "delivery_note",
+      "logicalDocumentId": "delivery-note-01",
+      "classificationConfidence": 0.96
+    }
+  ],
+  "ocrText": "akesono J. Pegangssan Dua Blok A1, Km. 3.0 PT. AKEBONO BRAKE ASTRA INDONESIA Tel Flil +62 21 46830075 +62 21 46826659 | DELIVERY SLI\r\nPogangsaan Dua, Kelapa Gading, Jakarta Utana | Email info@akebono-astra.co.is\r\nDKI Jakarta Raye, 2425O - INDoNESIA | Un www.akebono-astra.co.id\r\n07/Aug/26 | No. 26/4HMI4/00020\r\nTgl/Date :\r\nKepada/Send to : HINO MOTORS MANUFACTURING IND, PT | Contract/P.O. No. : 469/2018/SP-EX/07/202\r\nWisma Indomobil II\r\nl MT. Haryono kav.09 Bidara Cina, Jatinegara DKI Jakarta Raya | Syarat Penyerahan/ : DI GUDANG SDR\r\nIndonesia | Terms of delivery\r\n46972026\r\nHarap diterima barang dibawah ini/Please receive the undermentioned goods :\r\nBarang / Description | Model/ Type | Jumlah/Qty (Unit/set), 20 Keterangan/Remarks\r\nCUP KIT, WHEEL CYLINDER(0490S37220) | 04905-37220 | i | ot\r\nCUP KIT, WHEEL CYLINDER(04906-3 7440) | 04906-37440 | - | 8 | AUG 2026 E\r\ne 07\r\n9s . | 100103 No\r\nSTCU a | è | 7B | 20 | DBRAKE AST\r\nO | Diterima olehReby wa | PT. AKEBONO ASTRA INDONESIA\r\n1. ORIGINAL - FIN F | Diangkut dengan | e\r\n2. 3. COPY COPY | CUST -PP 7 2 1 | Transported by | VISaNo\r\nn 4 5. COPY COPY | - TRANSP GUDANG I | HSRI | e | RIZYA\r\nM | (Nama,TT & Cap / Name. Sign. Chop) | RI\r\nB. B.2078 | E | Tgl. Diterima/Received Date\r\n1. ORIGINAL - FINANCE | REVISION: 2 | FORM NO.:FM/PPC/005",
+  "extraction": {
+    "supplier_name": "AKEBONO ASTRA INDONESIA",
+    "delivery_note_number": "No. 26/4HMI4/00020",
+    "delivery_note_date": "2026-08-07",
+    "items": [
+      {
+        "part_number": "04905-37220",
+        "part_name": "CUP KIT, WHEEL CYLINDER",
+        "quantity": 20,
+        "unit": null,
+        "price": null,
+        "amount": null
+      },
+      {
+        "part_number": "04906-37440",
+        "part_name": "CUP KIT, WHEEL CYLINDER",
+        "quantity": 8,
+        "unit": null,
+        "price": null,
+        "amount": null
+      },
+      {
+        "part_number": "07/Aug/26",
+        "part_name": "No. 26/4HMI4/",
+        "quantity": 20,
+        "unit": null,
+        "price": null,
+        "amount": null
+      },
+      {
+        "part_number": "Kepada/Send",
+        "part_name": "to : HINO MOTORS MANUFACTURING IND, PT | Contract/P.O. No. : 469/2018/SP-EX/07/",
+        "quantity": 202,
+        "unit": null,
+        "price": null,
+        "amount": null
+      },
+      {
+        "part_number": "Jumlah/Qty",
+        "part_name": "(Unit/set),",
+        "quantity": 20,
+        "unit": null,
+        "price": null,
+        "amount": null
+      },
+      {
+        "part_number": "04906-3",
+        "part_name": "7440) | 04906-37440 | - | 8 | AUG",
+        "quantity": 2026,
+        "unit": null,
+        "price": null,
+        "amount": null
+      }
+    ]
+  },
+  "decision": {
+    "status": "needs_review",
+    "reason": "baseline_v1_5_has_no_hes_matching_output"
+  },
+  "runtime": {},
+  "baselineMetadata": {
+    "sourceExtract": "delivery-note1-extract.json",
+    "sourceClean": "delivery-note1-clean.json",
+    "cleanStatus": "cleaned"
+  }
+}

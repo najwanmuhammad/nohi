@@ -1,0 +1,196 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "documentType": "invoice",
+      "status": "cleaned",
+      "data": {
+        "documentType": "invoice",
+        "headerFields": {
+          "supplier_name": "PT. INTERGLOBAL ELECTRIC PARTS",
+          "invoice_number": "1790-IEP-IX-26",
+          "invoice_date": "15 September 2026",
+          "sub_total_amount": "53.813.800",
+          "taxable_base": "49.329.317",
+          "tax_amount": "5.919.518",
+          "total_amount": "59.733.318",
+          "signer_name": null,
+          "signer_position": null
+        },
+        "lineItems": [
+          {
+            "partNumber": "84310-F1020",
+            "partName": ")",
+            "quantity": "100",
+            "price": "454.870",
+            "amount": "45.487.000"
+          },
+          {
+            "partNumber": null,
+            "partName": "SWITCH, HAZARD WARNING SIGNAL",
+            "quantity": "120",
+            "price": "69.390",
+            "amount": "8.326.800"
+          }
+        ],
+        "confidence": 0.79,
+        "requiresReview": true,
+        "warnings": [
+          "line_items[1].part_number ditolak karena tidak ditemukan dalam OCR.",
+          "line_items[0] diperbaiki menggunakan quantity x price = amount pada baris OCR yang sama.",
+          "1 line item divalidasi dari baris tabel OCR.",
+          "Line item kosong atau mempunyai field kritis yang belum ditemukan."
+        ],
+        "evidence": [
+          {
+            "canonicalField": "supplier_name",
+            "value": "PT. INTERGLOBAL ELECTRIC PARTS",
+            "sourceText": "PT. INTERGLOBAL ELECTRIC PARTS",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "invoice_number",
+            "value": "1790-IEP-IX-26",
+            "sourceText": "1790-IEP-IX-26",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "part_number",
+            "value": null,
+            "sourceText": null,
+            "confidence": 0,
+            "method": "rejected_ungrounded",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "SWITCH, HAZARD WARNING SIGNAL",
+            "sourceText": "SWITCH, HAZARD WARNING SIGNAL",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "120",
+            "sourceText": "120",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "price",
+            "value": "69.390",
+            "sourceText": "69.390",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "amount",
+            "value": "8.326.800",
+            "sourceText": "8.326.800",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "invoice_date",
+            "value": "15 September 2026",
+            "sourceText": "15 September 2026",
+            "confidence": 1,
+            "method": "invoice_issue_date_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "sub_total_amount",
+            "value": "53.813.800",
+            "sourceText": "Jumlah Harga Jual / Penggantian / Hang Muka | 53.813.800",
+            "confidence": 1,
+            "method": "invoice_total_label_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "taxable_base",
+            "value": "49.329.317",
+            "sourceText": "Dasar Pengenaan Pajak | 49.329.317",
+            "confidence": 1,
+            "method": "invoice_total_label_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "tax_amount",
+            "value": "5.919.518",
+            "sourceText": "Jumlah PPN (Pajak Pertambahan Nilai) | 5.919.518",
+            "confidence": 1,
+            "method": "invoice_total_label_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "total_amount",
+            "value": "59.733.318",
+            "sourceText": "Jumlah : Rp 59.733.318",
+            "confidence": 1,
+            "method": "invoice_total_arithmetic_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "84310-F1020",
+            "sourceText": "84310-F1020",
+            "confidence": 1,
+            "method": "invoice_row_arithmetic",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "part_name",
+            "value": ")",
+            "sourceText": ")",
+            "confidence": 1,
+            "method": "invoice_row_arithmetic",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "100",
+            "sourceText": "1 SWITCH ASSY, TURN SIGNAL (84310-F1020) | 100 PC @ Rp. | 454.870 | 45.487.000",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "price",
+            "value": "454.870",
+            "sourceText": "1 SWITCH ASSY, TURN SIGNAL (84310-F1020) | 100 PC @ Rp. | 454.870 | 45.487.000",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "amount",
+            "value": "45.487.000",
+            "sourceText": "1 SWITCH ASSY, TURN SIGNAL (84310-F1020) | 100 PC @ Rp. | 454.870 | 45.487.000",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 0
+          }
+        ]
+      },
+      "message": null
+    },
+    {
+      "pageNumber": 2,
+      "documentType": "unknown",
+      "status": "skipped",
+      "data": null,
+      "message": "Jenis dokumen tidak termasuk invoice, delivery note, atau faktur pajak."
+    }
+  ],
+  "cleanedPageCount": 1,
+  "skippedPageCount": 1,
+  "failedPageCount": 0
+}

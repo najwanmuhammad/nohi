@@ -1,0 +1,70 @@
+{
+  "documentId": "invoice-01",
+  "requestedDocumentType": "invoice",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageType": "invoice",
+      "isTarget": true,
+      "logicalDocumentId": "invoice-01"
+    },
+    {
+      "pageNumber": 2,
+      "pageType": "supporting_document",
+      "isTarget": false,
+      "supportingType": "service_parts_delivery_instruction",
+      "logicalDocumentId": "invoice-01-support-01"
+    },
+    {
+      "pageNumber": 3,
+      "pageType": "unknown",
+      "isTarget": false,
+      "logicalDocumentId": null
+    },
+    {
+      "pageNumber": 4,
+      "pageType": "unknown",
+      "isTarget": false,
+      "logicalDocumentId": null
+    },
+    {
+      "pageNumber": 5,
+      "pageType": "unknown",
+      "isTarget": false,
+      "logicalDocumentId": null
+    }
+  ],
+  "expectedExtraction": {
+    "supplier_name": "PT. AKEBONO BRAKE ASTRA INDONESIA",
+    "invoice_number": "26HMliF0076",
+    "invoice_date": "2026-08-07",
+    "items": [
+      {
+        "part_number": "04905-37220",
+        "part_name": "CUP KIT, WHEEL CYLINDER PISTON, FR",
+        "quantity": 1,
+        "unit": "KT",
+        "price": 63480.0,
+        "amount": 63480.0
+      },
+      {
+        "part_number": "04906-37440",
+        "part_name": "CUP KIT, WHEEL CYLINDER PISTON, RR",
+        "quantity": 4,
+        "unit": "KT",
+        "price": 42430.0,
+        "amount": 169720.0
+      }
+    ],
+    "sub_total_amount": 233200.0,
+    "taxable_base": 213766.67,
+    "tax_amount": 25652.0,
+    "total_amount": 258852.0,
+    "signer_name": "Ferry Yudhi",
+    "signer_position": "Finance & Analyst Dept.Head"
+  },
+  "expectedDecision": {
+    "status": "matched_high_confidence",
+    "reason": "all_required_fields_are_readable"
+  }
+}

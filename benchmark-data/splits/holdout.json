@@ -1,0 +1,6 @@
+{
+  "name": "holdout",
+  "purpose": "Final unbiased evaluation only; do not use to tune OCR, prompts, rules, or thresholds.",
+  "supplierGroups": ["interglobal"],
+  "documentIds": ["delivery-note-05", "invoice-05", "tax-invoice-05"]
+}

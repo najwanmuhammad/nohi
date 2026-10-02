@@ -1,0 +1,38 @@
+{
+  "documentId": "delivery-note-03",
+  "requestedDocumentType": "delivery_note",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageType": "delivery_note",
+      "isTarget": true,
+      "logicalDocumentId": "delivery-note-03"
+    }
+  ],
+  "expectedExtraction": {
+    "supplier_name": "PT. OKAYA INDONESIA",
+    "delivery_note_number": "DO26004923",
+    "delivery_note_date": "2026-09-02",
+    "items": [
+      {
+        "part_number": "WW-230E",
+        "part_name": "PAINT KILLER",
+        "quantity": 100
+      },
+      {
+        "part_number": "WW-28",
+        "part_name": "COAGULANT",
+        "quantity": 40
+      },
+      {
+        "part_number": "K-780",
+        "part_name": "PAINT FLOC",
+        "quantity": 40
+      }
+    ]
+  },
+  "expectedDecision": {
+    "status": "matched_high_confidence",
+    "reason": "all_required_fields_are_readable"
+  }
+}

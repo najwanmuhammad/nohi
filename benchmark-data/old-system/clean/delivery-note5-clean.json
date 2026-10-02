@@ -1,0 +1,190 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "documentType": "unknown",
+      "status": "skipped",
+      "data": null,
+      "message": "Jenis dokumen tidak termasuk invoice, delivery note, atau faktur pajak."
+    },
+    {
+      "pageNumber": 2,
+      "documentType": "deliveryNote",
+      "status": "cleaned",
+      "data": {
+        "documentType": "deliveryNote",
+        "headerFields": {
+          "supplier_name": "PT. INTERGLOBAL ELECTRIC PARTS",
+          "delivery_note_number": "SURAT JALAN NO. 2182 / A/ IX / 26",
+          "delivery_note_date": "15 September 2026"
+        },
+        "lineItems": [
+          {
+            "partNumber": "84310-F1020-00",
+            "partName": "SWITCH ASSY, TURN SIGNAL",
+            "quantity": "100",
+            "price": null,
+            "amount": null
+          },
+          {
+            "partNumber": "84332-F1010-00",
+            "partName": "SWITCH, HAZARD WARNING SIGNAL",
+            "quantity": "120",
+            "price": null,
+            "amount": null
+          },
+          {
+            "partNumber": "D/N",
+            "partName": "N0.",
+            "quantity": "2092002217",
+            "price": null,
+            "amount": null
+          },
+          {
+            "partNumber": "FRM-IC-09/REV",
+            "partName": ".0 8 9 | Total",
+            "quantity": "21",
+            "price": null,
+            "amount": null
+          }
+        ],
+        "confidence": 0.988,
+        "requiresReview": false,
+        "warnings": ["2 line item divalidasi dari baris tabel OCR."],
+        "evidence": [
+          {
+            "canonicalField": "supplier_name",
+            "value": "PT. INTERGLOBAL ELECTRIC PARTS",
+            "sourceText": "PT. INTERGLOBAL ELECTRIC PARTS",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "delivery_note_number",
+            "value": "SURAT JALAN NO. 2182 / A/ IX / 26",
+            "sourceText": "SURAT JALAN NO. 2182 / A/ IX / 26",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "delivery_note_date",
+            "value": "15 September 2026",
+            "sourceText": "15 September 2026",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "84310-F1020-00",
+            "sourceText": "84310-F1020-00",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "SWITCH ASSY, TURN SIGNAL",
+            "sourceText": "SWITCH ASSY, TURN SIGNAL",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "100",
+            "sourceText": "100",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "84332-F1010-00",
+            "sourceText": "84332-F1010-00",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "SWITCH, HAZARD WARNING SIGNAL",
+            "sourceText": "SWITCH, HAZARD WARNING SIGNAL",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "120",
+            "sourceText": "120",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "D/N",
+            "sourceText": "D/N",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 2
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "N0.",
+            "sourceText": "N0.",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 2
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "2092002217",
+            "sourceText": "2092002217",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 2
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "FRM-IC-09/REV",
+            "sourceText": "FRM-IC-09/REV",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 3
+          },
+          {
+            "canonicalField": "part_name",
+            "value": ".0 8 9 | Total",
+            "sourceText": ".0 8 9 | Total",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 3
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "21",
+            "sourceText": "21",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 3
+          }
+        ]
+      },
+      "message": null
+    },
+    {
+      "pageNumber": 3,
+      "documentType": "unknown",
+      "status": "skipped",
+      "data": null,
+      "message": "Jenis dokumen tidak termasuk invoice, delivery note, atau faktur pajak."
+    }
+  ],
+  "cleanedPageCount": 1,
+  "skippedPageCount": 2,
+  "failedPageCount": 0
+}

@@ -1,0 +1,183 @@
+{
+  "datasetVersion": "1.0.0",
+  "split": "development",
+  "modelVersion": "old-system-v1.5",
+  "configVersion": "original-extract-clean",
+  "documentsExpected": 9,
+  "documentsEvaluated": 9,
+  "metrics": {
+    "prediction_coverage": 1.0,
+    "field_accuracy": 0.5773809523809523,
+    "required_field_accuracy": 0.7474747474747475,
+    "identifier_accuracy": 0.7435897435897436,
+    "row_accuracy": 0.0,
+    "classification_accuracy": 0.8823529411764706,
+    "grouping_accuracy": 0.5882352941176471,
+    "decision_accuracy": 0.0,
+    "cer_mean": null,
+    "wer_mean": null,
+    "latency_ms_p50": null,
+    "latency_ms_p95": null,
+    "peak_memory_mb_max": null
+  },
+  "thresholdFailures": [
+    {
+      "metric": "required_field_accuracy",
+      "actual": 0.7474747474747475,
+      "minimum": 1.0
+    },
+    {
+      "metric": "identifier_accuracy",
+      "actual": 0.7435897435897436,
+      "minimum": 1.0
+    },
+    {
+      "metric": "row_accuracy",
+      "actual": 0.0,
+      "minimum": 1.0
+    },
+    {
+      "metric": "classification_accuracy",
+      "actual": 0.8823529411764706,
+      "minimum": 1.0
+    },
+    {
+      "metric": "grouping_accuracy",
+      "actual": 0.5882352941176471,
+      "minimum": 1.0
+    },
+    {
+      "metric": "decision_accuracy",
+      "actual": 0.0,
+      "minimum": 1.0
+    }
+  ],
+  "documents": [
+    {
+      "documentId": "delivery-note-01",
+      "field_accuracy": 0.5555555555555556,
+      "required_field_accuracy": 0.5555555555555556,
+      "identifier_accuracy": 0.6666666666666666,
+      "row_accuracy": 0.0,
+      "classification_accuracy": 1.0,
+      "grouping_accuracy": 1.0,
+      "decision_correct": false,
+      "cer": null,
+      "wer": null,
+      "latency_ms": null,
+      "peak_memory_mb": null
+    },
+    {
+      "documentId": "invoice-01",
+      "field_accuracy": 0.7619047619047619,
+      "required_field_accuracy": 0.9411764705882353,
+      "identifier_accuracy": 1.0,
+      "row_accuracy": 0.0,
+      "classification_accuracy": 0.8,
+      "grouping_accuracy": 0.2,
+      "decision_correct": false,
+      "cer": null,
+      "wer": null,
+      "latency_ms": null,
+      "peak_memory_mb": null
+    },
+    {
+      "documentId": "tax-invoice-01",
+      "field_accuracy": 0.76,
+      "required_field_accuracy": 1.0,
+      "identifier_accuracy": 1.0,
+      "row_accuracy": 0.0,
+      "classification_accuracy": 1.0,
+      "grouping_accuracy": 1.0,
+      "decision_correct": false,
+      "cer": null,
+      "wer": null,
+      "latency_ms": null,
+      "peak_memory_mb": null
+    },
+    {
+      "documentId": "delivery-note-02",
+      "field_accuracy": 0.14285714285714285,
+      "required_field_accuracy": 0.16666666666666666,
+      "identifier_accuracy": 0.3333333333333333,
+      "row_accuracy": 0.0,
+      "classification_accuracy": 1.0,
+      "grouping_accuracy": 1.0,
+      "decision_correct": false,
+      "cer": null,
+      "wer": null,
+      "latency_ms": null,
+      "peak_memory_mb": null
+    },
+    {
+      "documentId": "invoice-02",
+      "field_accuracy": 0.5294117647058824,
+      "required_field_accuracy": 0.5833333333333334,
+      "identifier_accuracy": 0.0,
+      "row_accuracy": 0.0,
+      "classification_accuracy": 0.75,
+      "grouping_accuracy": 0.25,
+      "decision_correct": false,
+      "cer": null,
+      "wer": null,
+      "latency_ms": null,
+      "peak_memory_mb": null
+    },
+    {
+      "documentId": "tax-invoice-02",
+      "field_accuracy": 0.631578947368421,
+      "required_field_accuracy": 1.0,
+      "identifier_accuracy": 1.0,
+      "row_accuracy": 0.0,
+      "classification_accuracy": 1.0,
+      "grouping_accuracy": 1.0,
+      "decision_correct": false,
+      "cer": null,
+      "wer": null,
+      "latency_ms": null,
+      "peak_memory_mb": null
+    },
+    {
+      "documentId": "delivery-note-03",
+      "field_accuracy": 0.6666666666666666,
+      "required_field_accuracy": 0.6666666666666666,
+      "identifier_accuracy": 1.0,
+      "row_accuracy": 0.0,
+      "classification_accuracy": 1.0,
+      "grouping_accuracy": 1.0,
+      "decision_correct": false,
+      "cer": null,
+      "wer": null,
+      "latency_ms": null,
+      "peak_memory_mb": null
+    },
+    {
+      "documentId": "invoice-03",
+      "field_accuracy": 0.7037037037037037,
+      "required_field_accuracy": 0.8181818181818182,
+      "identifier_accuracy": 1.0,
+      "row_accuracy": 0.0,
+      "classification_accuracy": 1.0,
+      "grouping_accuracy": 1.0,
+      "decision_correct": false,
+      "cer": null,
+      "wer": null,
+      "latency_ms": null,
+      "peak_memory_mb": null
+    },
+    {
+      "documentId": "tax-invoice-03",
+      "field_accuracy": 0.25806451612903225,
+      "required_field_accuracy": 0.7142857142857143,
+      "identifier_accuracy": 0.5714285714285714,
+      "row_accuracy": 0.0,
+      "classification_accuracy": 1.0,
+      "grouping_accuracy": 1.0,
+      "decision_correct": false,
+      "cer": null,
+      "wer": null,
+      "latency_ms": null,
+      "peak_memory_mb": null
+    }
+  ]
+}

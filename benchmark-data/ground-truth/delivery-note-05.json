@@ -1,0 +1,46 @@
+{
+  "documentId": "delivery-note-05",
+  "requestedDocumentType": "delivery_note",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageType": "delivery_note",
+      "isTarget": true,
+      "logicalDocumentId": "delivery-note-05"
+    },
+    {
+      "pageNumber": 2,
+      "pageType": "unknown",
+      "isTarget": false,
+      "logicalDocumentId": null
+    },
+    {
+      "pageNumber": 3,
+      "pageType": "supporting_document",
+      "isTarget": false,
+      "supportingType": "good_receive_note",
+      "logicalDocumentId": "delivery-note-05-good-receive-note"
+    }
+  ],
+  "expectedExtraction": {
+    "supplier_name": "INTERGLOBAL ELECTRIC PART",
+    "delivery_note_number": "2092002217",
+    "delivery_note_date": "2026-09-15",
+    "items": [
+      {
+        "part_number": "84310-F1020-00",
+        "part_name": "SWITCH ASSY, TURN SIGNA",
+        "quantity": 100
+      },
+      {
+        "part_number": "84332-F1010-00",
+        "part_name": "SWITCH, HAZARD WARNING",
+        "quantity": 120
+      }
+    ]
+  },
+  "expectedDecision": {
+    "status": "matched_high_confidence",
+    "reason": "all_required_fields_are_readable"
+  }
+}

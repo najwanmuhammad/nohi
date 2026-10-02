@@ -1,0 +1,49 @@
+{
+  "documentId": "tax-invoice-01",
+  "requestedDocumentType": "tax_invoice",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageType": "tax_invoice",
+      "isTarget": true,
+      "logicalDocumentId": "tax-invoice-01"
+    }
+  ],
+  "expectedExtraction": {
+    "supplier_name": "AKEBONO BRAKE ASTRA INDONESIA",
+    "tax_invoice_full_number": "04002600343133156",
+    "trans_type": "04",
+    "tax_replc": "0",
+    "tax_invoice_number": "02600343133156",
+    "tax_invoice_date": "2026-08-07",
+    "items": [
+      {
+        "tax_goods_code": "000000",
+        "part_number": "04905-37220",
+        "part_name": null,
+        "quantity": 1,
+        "price": 63480.0,
+        "amount": 63480.0
+      },
+      {
+        "tax_goods_code": "000000",
+        "part_number": "04906-37440",
+        "part_name": null,
+        "quantity": 4,
+        "price": 42430.0,
+        "amount": 169720.0
+      }
+    ],
+    "sub_total_amount": 233200.0,
+    "discount": 0.0,
+    "down_payment": null,
+    "taxable_base": 213767.0,
+    "tax_amount": 25652.0,
+    "luxury_goods_sales_tax": 0.0,
+    "signer_name": "FERRY YUDHI INDRABAYU"
+  },
+  "expectedDecision": {
+    "status": "matched_high_confidence",
+    "reason": "all_required_fields_are_readable"
+  }
+}

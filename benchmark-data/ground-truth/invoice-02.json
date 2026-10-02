@@ -1,0 +1,61 @@
+{
+  "documentId": "invoice-02",
+  "requestedDocumentType": "invoice",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageType": "invoice",
+      "isTarget": true,
+      "logicalDocumentId": "invoice-02"
+    },
+    {
+      "pageNumber": 2,
+      "pageType": "tax_invoice",
+      "isTarget": false,
+      "logicalDocumentId": "invoice-02-tax-invoice"
+    },
+    {
+      "pageNumber": 3,
+      "pageType": "delivery_note",
+      "isTarget": false,
+      "logicalDocumentId": "invoice-02-delivery-note"
+    },
+    {
+      "pageNumber": 4,
+      "pageType": "supporting_document",
+      "isTarget": false,
+      "supportingType": "purchase_order",
+      "logicalDocumentId": "invoice-02-purchase-order"
+    }
+  ],
+  "expectedExtraction": {
+    "supplier_name": "PT. RUKUN SEJAHTERA TEKNIK",
+    "invoice_number": "IN00260705553",
+    "invoice_date": "2026-07-21",
+    "items": [
+      {
+        "supplier_part_number": "TB60573N",
+        "part_number": null,
+        "part_name": "3M 311-1250 EARsoft Yellow Neons Earplugs, Regular Size (Pack. 10/200/2000)-7000002306",
+        "model_number": "7000002306",
+        "quantity": 100,
+        "unit": "pair",
+        "price": 7000.0,
+        "amount": 700000.0
+      }
+    ],
+    "sub_total_amount": 700000.0,
+    "taxable_base": 641666.67,
+    "tax_amount": 77000.0,
+    "total_amount": 777000.0,
+    "signer_name": null,
+    "signer_position": null
+  },
+  "hesExpected": {
+    "part_number": "10030290"
+  },
+  "expectedDecision": {
+    "status": "mismatch",
+    "reason": "required_part_number_not_printed_in_invoice"
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "documentType": "invoice",
+      "status": "cleaned",
+      "data": {
+        "documentType": "invoice",
+        "headerFields": {
+          "supplier_name": "PT. AKEBONO BRAKE ASTRA INDONESIA",
+          "invoice_number": "26HMliF0076",
+          "invoice_date": "07 August 2026",
+          "sub_total_amount": "233,200.00",
+          "taxable_base": "213,766.67",
+          "tax_amount": "25,652.00",
+          "total_amount": "258,852.00",
+          "signer_name": "Ferry Yudbi",
+          "signer_position": "Finance &Analyst Dept.Head"
+        },
+        "lineItems": [
+          {
+            "partNumber": "04905-37220",
+            "partName": "CUP KIT, WHEEL CYLINDER PISTON, FR",
+            "quantity": "1.0",
+            "price": "63,480.00",
+            "amount": "63,480.00"
+          },
+          {
+            "partNumber": "04906-37440",
+            "partName": "CUP KIT, WHEEL CYlINDER PISTON, RR",
+            "quantity": "4.0",
+            "price": "42,430.00",
+            "amount": "169,720.00"
+          }
+        ],
+        "confidence": 0.9989,
+        "requiresReview": false,
+        "warnings": [
+          "invoice/faktur penjualan diproses lewat fast path deterministik; Ollama tidak dipanggil.",
+          "invoice_date dipastikan dari tanggal penerbitan/tanda tangan; tanggal jatuh tempo tidak dipakai.",
+          "line_items[0] diperbaiki menggunakan quantity x price = amount pada baris OCR yang sama.",
+          "line_items[1] diperbaiki menggunakan quantity x price = amount pada baris OCR yang sama.",
+          "2 line item divalidasi dari baris tabel OCR."
+        ],
+        "evidence": [
+          {
+            "canonicalField": "invoice_number",
+            "value": "26HMliF0076",
+            "sourceText": "Faktur Penjualan / Invoice | No. 26HMliF0076",
+            "confidence": 1,
+            "method": "invoice_number_label_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "supplier_name",
+            "value": "PT. AKEBONO BRAKE ASTRA INDONESIA",
+            "sourceText": "PT. AKEBONO BRAKE ASTRA INDONESIA",
+            "confidence": 1,
+            "method": "invoice_supplier_header_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "invoice_date",
+            "value": "07 August 2026",
+            "sourceText": "07 August 2026",
+            "confidence": 1,
+            "method": "invoice_issue_date_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "sub_total_amount",
+            "value": "233,200.00",
+            "sourceText": "Jumlah Harga Jual | IDR | 233,200.00",
+            "confidence": 1,
+            "method": "invoice_total_label_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "taxable_base",
+            "value": "213,766.67",
+            "sourceText": "Dasar Pengenaan Pajak/Taxable Amount | . ( 11/12 * harga jual ) | IDR | 213,766.67",
+            "confidence": 1,
+            "method": "invoice_total_label_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "tax_amount",
+            "value": "25,652.00",
+            "sourceText": "Pajak Pertambahan Nilai (PPN)/Value Added | ( 12% x DPP ) | IDR | 25,652.00",
+            "confidence": 1,
+            "method": "invoice_total_label_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "total_amount",
+            "value": "258,852.00",
+            "sourceText": "#Two Hundred And Fifty-eight Thousand, Eight Hundred And Fifty-two# | IDR | 258,852.00",
+            "confidence": 1,
+            "method": "invoice_total_arithmetic_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "signer_name",
+            "value": "Ferry Yudbi",
+            "sourceText": "Ferry Yudbi",
+            "confidence": 0.95,
+            "method": "signature_block_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "signer_position",
+            "value": "Finance &Analyst Dept.Head",
+            "sourceText": "Finance &Analyst Dept.Head",
+            "confidence": 0.95,
+            "method": "signature_block_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "04905-37220",
+            "sourceText": "04905-37220",
+            "confidence": 1,
+            "method": "invoice_row_arithmetic",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "CUP KIT, WHEEL CYLINDER PISTON, FR",
+            "sourceText": "CUP KIT, WHEEL CYLINDER PISTON, FR",
+            "confidence": 1,
+            "method": "invoice_row_arithmetic",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "04906-37440",
+            "sourceText": "04906-37440",
+            "confidence": 1,
+            "method": "invoice_row_arithmetic",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "CUP KIT, WHEEL CYlINDER PISTON, RR",
+            "sourceText": "CUP KIT, WHEEL CYlINDER PISTON, RR",
+            "confidence": 1,
+            "method": "invoice_row_arithmetic",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "1.0",
+            "sourceText": "1 04905-37220 - CUP KIT, WHEEL CYLINDER PISTON, FR | 1.0 KT IDR | 63,480.00 IDR | 63,480.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "price",
+            "value": "63,480.00",
+            "sourceText": "1 04905-37220 - CUP KIT, WHEEL CYLINDER PISTON, FR | 1.0 KT IDR | 63,480.00 IDR | 63,480.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "amount",
+            "value": "63,480.00",
+            "sourceText": "1 04905-37220 - CUP KIT, WHEEL CYLINDER PISTON, FR | 1.0 KT IDR | 63,480.00 IDR | 63,480.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "4.0",
+            "sourceText": "2 04906-37440 - CUP KIT, WHEEL CYlINDER PISTON, RR | 4.0 KT IDR | 42,430.00 IDR | 169,720.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "price",
+            "value": "42,430.00",
+            "sourceText": "2 04906-37440 - CUP KIT, WHEEL CYlINDER PISTON, RR | 4.0 KT IDR | 42,430.00 IDR | 169,720.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "amount",
+            "value": "169,720.00",
+            "sourceText": "2 04906-37440 - CUP KIT, WHEEL CYlINDER PISTON, RR | 4.0 KT IDR | 42,430.00 IDR | 169,720.00",
+            "confidence": 1,
+            "method": "row_arithmetic_validation",
+            "lineItemIndex": 1
+          }
+        ]
+      },
+      "message": null
+    },
+    {
+      "pageNumber": 2,
+      "documentType": "unknown",
+      "status": "skipped",
+      "data": null,
+      "message": "Jenis dokumen tidak termasuk invoice, delivery note, atau faktur pajak."
+    },
+    {
+      "pageNumber": 3,
+      "documentType": "unknown",
+      "status": "skipped",
+      "data": null,
+      "message": "Jenis dokumen tidak termasuk invoice, delivery note, atau faktur pajak."
+    },
+    {
+      "pageNumber": 4,
+      "documentType": "unknown",
+      "status": "skipped",
+      "data": null,
+      "message": "Jenis dokumen tidak termasuk invoice, delivery note, atau faktur pajak."
+    },
+    {
+      "pageNumber": 5,
+      "documentType": "unknown",
+      "status": "skipped",
+      "data": null,
+      "message": "Jenis dokumen tidak termasuk invoice, delivery note, atau faktur pajak."
+    }
+  ],
+  "cleanedPageCount": 1,
+  "skippedPageCount": 4,
+  "failedPageCount": 0
+}

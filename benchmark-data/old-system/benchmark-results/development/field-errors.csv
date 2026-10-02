@@ -1,0 +1,72 @@
+documentId,field,expected,actual,required
+delivery-note-01,supplier_name,"""PT. AKEBONO BRAKE ASTRA INDONESIA""","""AKEBONO ASTRA INDONESIA""",True
+delivery-note-01,delivery_note_number,"""26/4HMI4/00020""","""No. 26/4HMI4/00020""",True
+delivery-note-01,items[0].quantity,1,20,True
+delivery-note-01,items[1].quantity,4,8,True
+invoice-01,signer_name,"""Ferry Yudhi""","""Ferry Yudbi""",False
+invoice-01,signer_position,"""Finance & Analyst Dept.Head""","""Finance &Analyst Dept.Head""",False
+invoice-01,items[0].unit,"""KT""",null,False
+invoice-01,items[1].part_name,"""CUP KIT, WHEEL CYLINDER PISTON, RR""","""CUP KIT, WHEEL CYlINDER PISTON, RR""",True
+invoice-01,items[1].unit,"""KT""",null,False
+tax-invoice-01,discount,0.0,null,False
+tax-invoice-01,luxury_goods_sales_tax,0.0,null,False
+tax-invoice-01,items[0].tax_goods_code,"""000000""",null,False
+tax-invoice-01,items[0].amount,63480.0,null,False
+tax-invoice-01,items[1].tax_goods_code,"""000000""",null,False
+tax-invoice-01,items[1].amount,169720.0,null,False
+delivery-note-02,supplier_name,"""PT. RUKUN SEJAHTERA TEKNIK""",null,True
+delivery-note-02,delivery_note_number,"""PS00260705120""",null,True
+delivery-note-02,delivery_note_date,"""2026-07-21""",null,True
+delivery-note-02,items[0].supplier_part_number,"""TB60573N""",null,False
+delivery-note-02,items[0].part_name,"""3M 311-1250 EARsoft Yellow Neons Earplugs, Regular Size (Pack. 10/200/2000)-7000002306""",null,True
+delivery-note-02,items[0].quantity,100,null,True
+invoice-02,supplier_name,"""PT. RUKUN SEJAHTERA TEKNIK""",null,True
+invoice-02,invoice_number,"""IN00260705553""","""SO260605732""",True
+invoice-02,sub_total_amount,700000.0,null,True
+invoice-02,items[0].supplier_part_number,"""TB60573N""",null,False
+invoice-02,items[0].part_number,null,"""7000002306""",True
+invoice-02,items[0].part_name,"""3M 311-1250 EARsoft Yellow Neons Earplugs, Regular Size (Pack. 10/200/2000)-7000002306""","""Yellow Neons Earplugs, Regular Size (Pack. 10/200/2000)""",True
+invoice-02,items[0].model_number,"""7000002306""",null,False
+invoice-02,items[0].unit,"""pair""",null,False
+tax-invoice-02,discount,0.0,null,False
+tax-invoice-02,luxury_goods_sales_tax,0.0,null,False
+tax-invoice-02,items[0].tax_goods_code,"""000000""",null,False
+tax-invoice-02,items[0].part_name,"""3M 311-1250 EARsoft Yellow Neons Earplugs, Regular Size (Pack. 10/200/2000)-7000002306""",null,False
+tax-invoice-02,items[0].quantity,100,null,False
+tax-invoice-02,items[0].price,7000.0,null,False
+tax-invoice-02,items[0].amount,700000.0,null,False
+delivery-note-03,delivery_note_date,"""2026-09-02""","""2026-07-28""",True
+delivery-note-03,items[0].part_name,"""PAINT KILLER""","""(PAINT KILLER)""",True
+delivery-note-03,items[1].part_name,"""COAGULANT""","""(COAGULANT)""",True
+delivery-note-03,items[2].part_name,"""PAINT FLOC""","""(PAINT FLOC)""",True
+invoice-03,taxable_base,null,20960000,True
+invoice-03,signer_name,"""SASAKI KAZUKI""",null,False
+invoice-03,items[0].part_name,"""PAINT KILLER""","""(PAINT KILLER)""",True
+invoice-03,items[0].unit,"""KG""",null,False
+invoice-03,items[1].part_name,"""COAGULANT""","""(COAGULANT)""",True
+invoice-03,items[1].unit,"""KG""",null,False
+invoice-03,items[2].part_name,"""PAINT FLOC""","""(PAINT FLOC)""",True
+invoice-03,items[2].unit,"""KG""",null,False
+tax-invoice-03,sub_total_amount,20960000.0,null,False
+tax-invoice-03,discount,0.0,null,False
+tax-invoice-03,taxable_base,19213333.0,null,True
+tax-invoice-03,tax_amount,2305600.0,null,True
+tax-invoice-03,luxury_goods_sales_tax,0.0,null,False
+tax-invoice-03,items[0].tax_goods_code,"""000000""",null,False
+tax-invoice-03,items[0].part_number,"""WW-230E""",null,False
+tax-invoice-03,items[0].part_name,"""PAINT KILLER""",null,False
+tax-invoice-03,items[0].quantity,100,null,False
+tax-invoice-03,items[0].price,138000.0,null,False
+tax-invoice-03,items[0].amount,13800000.0,null,False
+tax-invoice-03,items[1].tax_goods_code,"""000000""",null,False
+tax-invoice-03,items[1].part_number,"""WW-28""",null,False
+tax-invoice-03,items[1].part_name,"""COAGULANT""",null,False
+tax-invoice-03,items[1].quantity,40,null,False
+tax-invoice-03,items[1].price,41000.0,null,False
+tax-invoice-03,items[1].amount,1640000.0,null,False
+tax-invoice-03,items[2].tax_goods_code,"""000000""",null,False
+tax-invoice-03,items[2].part_number,"""K-780""",null,False
+tax-invoice-03,items[2].part_name,"""PAINT FLOC""",null,False
+tax-invoice-03,items[2].quantity,40,null,False
+tax-invoice-03,items[2].price,138000.0,null,False
+tax-invoice-03,items[2].amount,5520000.0,null,False

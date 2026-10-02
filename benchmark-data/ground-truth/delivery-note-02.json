@@ -1,0 +1,32 @@
+{
+  "documentId": "delivery-note-02",
+  "requestedDocumentType": "delivery_note",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageType": "delivery_note",
+      "isTarget": true,
+      "logicalDocumentId": "delivery-note-02"
+    }
+  ],
+  "expectedExtraction": {
+    "supplier_name": "PT. RUKUN SEJAHTERA TEKNIK",
+    "delivery_note_number": "PS00260705120",
+    "delivery_note_date": "2026-07-21",
+    "items": [
+      {
+        "supplier_part_number": "TB60573N",
+        "part_number": null,
+        "part_name": "3M 311-1250 EARsoft Yellow Neons Earplugs, Regular Size (Pack. 10/200/2000)-7000002306",
+        "quantity": 100
+      }
+    ]
+  },
+  "hesExpected": {
+    "part_number": "10030290"
+  },
+  "expectedDecision": {
+    "status": "mismatch",
+    "reason": "required_part_number_not_printed_in_delivery_note"
+  }
+}

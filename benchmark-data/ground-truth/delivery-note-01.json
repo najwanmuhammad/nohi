@@ -1,0 +1,33 @@
+{
+  "documentId": "delivery-note-01",
+  "requestedDocumentType": "delivery_note",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageType": "delivery_note",
+      "isTarget": true,
+      "logicalDocumentId": "delivery-note-01"
+    }
+  ],
+  "expectedExtraction": {
+    "supplier_name": "PT. AKEBONO BRAKE ASTRA INDONESIA",
+    "delivery_note_number": "26/4HMI4/00020",
+    "delivery_note_date": "2026-08-07",
+    "items": [
+      {
+        "part_number": "04905-37220",
+        "part_name": "CUP KIT, WHEEL CYLINDER",
+        "quantity": 1
+      },
+      {
+        "part_number": "04906-37440",
+        "part_name": "CUP KIT, WHEEL CYLINDER",
+        "quantity": 4
+      }
+    ]
+  },
+  "expectedDecision": {
+    "status": "matched_high_confidence",
+    "reason": "all_required_fields_are_readable"
+  }
+}

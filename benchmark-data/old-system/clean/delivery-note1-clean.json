@@ -1,0 +1,238 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "documentType": "deliveryNote",
+      "status": "cleaned",
+      "data": {
+        "documentType": "deliveryNote",
+        "headerFields": {
+          "supplier_name": "AKEBONO ASTRA INDONESIA",
+          "delivery_note_number": "No. 26/4HMI4/00020",
+          "delivery_note_date": "07/Aug/26"
+        },
+        "lineItems": [
+          {
+            "partNumber": "04905-37220",
+            "partName": "CUP KIT, WHEEL CYLINDER",
+            "quantity": "00020",
+            "price": null,
+            "amount": null
+          },
+          {
+            "partNumber": "04906-37440",
+            "partName": "CUP KIT, WHEEL CYLINDER",
+            "quantity": "8",
+            "price": null,
+            "amount": null
+          },
+          {
+            "partNumber": "07/Aug/26",
+            "partName": "No. 26/4HMI4/",
+            "quantity": "00020",
+            "price": null,
+            "amount": null
+          },
+          {
+            "partNumber": "Kepada/Send",
+            "partName": "to : HINO MOTORS MANUFACTURING IND, PT | Contract/P.O. No. : 469/2018/SP-EX/07/",
+            "quantity": "202",
+            "price": null,
+            "amount": null
+          },
+          {
+            "partNumber": "Jumlah/Qty",
+            "partName": "(Unit/set),",
+            "quantity": "20",
+            "price": null,
+            "amount": null
+          },
+          {
+            "partNumber": "04906-3",
+            "partName": "7440) | 04906-37440 | - | 8 | AUG",
+            "quantity": "2026",
+            "price": null,
+            "amount": null
+          }
+        ],
+        "confidence": 0.9914,
+        "requiresReview": false,
+        "warnings": ["4 line item divalidasi dari baris tabel OCR."],
+        "evidence": [
+          {
+            "canonicalField": "supplier_name",
+            "value": "AKEBONO ASTRA INDONESIA",
+            "sourceText": "AKEBONO ASTRA INDONESIA",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "delivery_note_number",
+            "value": "No. 26/4HMI4/00020",
+            "sourceText": "No. 26/4HMI4/00020",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "delivery_note_date",
+            "value": "07/Aug/26",
+            "sourceText": "07/Aug/26",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "04905-37220",
+            "sourceText": "04905-37220",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "CUP KIT, WHEEL CYLINDER",
+            "sourceText": "CUP KIT, WHEEL CYLINDER",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "00020",
+            "sourceText": "00020",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "04906-37440",
+            "sourceText": "04906-37440",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "CUP KIT, WHEEL CYLINDER",
+            "sourceText": "CUP KIT, WHEEL CYLINDER",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "8",
+            "sourceText": "8",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": 1
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "07/Aug/26",
+            "sourceText": "07/Aug/26",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 2
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "No. 26/4HMI4/",
+            "sourceText": "No. 26/4HMI4/",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 2
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "00020",
+            "sourceText": "00020",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 2
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "Kepada/Send",
+            "sourceText": "Kepada/Send",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 3
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "to : HINO MOTORS MANUFACTURING IND, PT | Contract/P.O. No. : 469/2018/SP-EX/07/",
+            "sourceText": "to : HINO MOTORS MANUFACTURING IND, PT | Contract/P.O. No. : 469/2018/SP-EX/07/",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 3
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "202",
+            "sourceText": "202",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 3
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "Jumlah/Qty",
+            "sourceText": "Jumlah/Qty",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 4
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "(Unit/set),",
+            "sourceText": "(Unit/set),",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 4
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "20",
+            "sourceText": "20",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 4
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "04906-3",
+            "sourceText": "04906-3",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 5
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "7440) | 04906-37440 | - | 8 | AUG",
+            "sourceText": "7440) | 04906-37440 | - | 8 | AUG",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 5
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "2026",
+            "sourceText": "2026",
+            "confidence": 1,
+            "method": "delivery_note_row",
+            "lineItemIndex": 5
+          }
+        ]
+      },
+      "message": null
+    }
+  ],
+  "cleanedPageCount": 1,
+  "skippedPageCount": 0,
+  "failedPageCount": 0
+}

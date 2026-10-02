@@ -1,0 +1,16 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "documentType": "taxInvoice",
+      "classificationConfidence": 1,
+      "rawText": "Faktur Pajak\r\nNama: OKAYA INDONESIA\r\nAlamat: GEDUNG MIDPLAZA 2 LT.24 JL JEND\r\nSUDIRMAN KAV10-11 , KOTA ADM. JAKARTA\r\nPUSAT #0031552284022000000000\r\nKode dan Nomor Seri Faktur Pajak: 04002600352618855\r\nPengusaha Kena Pajak:\r\nNama : OKAYA INDONESIA\r\nAlamat : GEDUNG MIDPLAZA 2 LT.24 JL JEND SUDIRMAN KAV10-11 , RT 000, RW 000, KARET TENGSIN,\r\nTANAH ABANG, KOTA ADM. JAKARTA PUSAT, DKI JAKARTA 10220\r\nNPWP : 0031552284022000\r\nPembeli Barang Kena Pajak/Penerima Jasa Kena Pajak:\r\nNama : HINO MOTORS MANUFACTURING INDONESIA\r\nAlamat : GEDUNG WISMA INDOMOBIL II JL MT. HARYONO KAV 9 , RT 000, RW 000, BIDARA CINA,\r\nJATINEGARA, KOTA ADM. JAKARTA TIMUR, DKI JAKARTA 13330 #0010601433092000000000\r\nNPWP : 0010601433092000\r\nNIK : -\r\nNomor Paspor : -\r\nIdentitas Lain : -\r\nEmail: -\r\nKode | Harga Jual / Penggantian /\r\nNo. | Barang/ | Nama Barang Kena Pajak / Jasa Kena Pajak | Uang Muka / Termin\r\nJasa | (Rp)\r\nWW-230E (PAINT KILLER)\r\n7 | 000000 | Rp 138.000,00 x 100,00 Kilogram | 13.800.000,00\r\nPotongan Harga = Rp 0,00\r\nPPnBM (0,00%) = Rp 0,00\r\nWW-28 (COAGULANT)\r\n2 | 000000 | Rp 41.000,00 x 40,00 Kilogram | 1.640.000,00\r\nPotongan Harga = Rp 0,00\r\nPPnBM (0,00%) = Rp 0,00\r\nK-780 (PAINT FLOC)\r\n3 | 000000 | Rp 138.000,00 x 40,00 Kilogram | 5.520.000,00\r\nPotongan Harga = Rp 0,00\r\nPPnBM (0,00%) = Rp 0,00\r\nHarga Jual / Penggantian / Uang Muka / Termin | 20.960.000,00\r\nDikurangi Potongan Harga | 0,00\r\nDikurangi Uang Muka yang telah diterima\r\nDasar Pengenaan Pajak | 19.213.333,00\r\nJumlah PPN (Pajak Pertambahan Nilai) | 2.305.600,00\r\nJumlah PPnBM (Pajak Penjualan atas Barang Mewah) | 0,00\r\nSesuai dengan ketentuan yang berlaku, Direktorat Jenderal Pajak mengatur bahwa Faktur Pajak ini telah ditandatangani\r\nsecara elektronik sehingga tidak diperlukan tanda tangan basah pada Faktur Pajak ini.\r\nKOTA ADM. JAKARTA PUSAT, 02 September\r\n2026\r\nDitandatangani secara elektronik\r\nFELICIA TANTRI"
+    },
+    {
+      "pageNumber": 2,
+      "documentType": "taxInvoice",
+      "classificationConfidence": 1,
+      "rawText": "(Referensi: SI2609039)\r\nPemberitahu uan: Faktur Pajak ini telah dilaporkan ke Direktorat Jenderal Pajak dan telah mer nperoleh persetujuan sesua | 2 dari 2\r\n: deea deea"
+    }
+  ]
+}

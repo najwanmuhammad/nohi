@@ -1,0 +1,51 @@
+{
+  "documentId": "invoice-05",
+  "requestedDocumentType": "invoice",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageType": "invoice",
+      "isTarget": true,
+      "logicalDocumentId": "invoice-05"
+    },
+    {
+      "pageNumber": 2,
+      "pageType": "unknown",
+      "isTarget": false,
+      "logicalDocumentId": null
+    }
+  ],
+  "expectedExtraction": {
+    "supplier_name": "PT. INTERGLOBAL ELECTRIC PARTS",
+    "invoice_number": "1790-IEP-IX-26",
+    "invoice_date": "2026-09-15",
+    "items": [
+      {
+        "part_number": "84310-F1020",
+        "part_name": "SWITCH ASSY, TURN SIGNAL",
+        "quantity": 100,
+        "unit": "PC",
+        "price": 454870.0,
+        "amount": 45487000.0
+      },
+      {
+        "part_number": "84332-F1010",
+        "part_name": "SWITCH, HAZARD WARNING SIGNAL",
+        "quantity": 120,
+        "unit": "PC",
+        "price": 69390.0,
+        "amount": 8326800.0
+      }
+    ],
+    "sub_total_amount": 53813800.0,
+    "taxable_base": 49329317.0,
+    "tax_amount": 5919518.0,
+    "total_amount": 59733318.0,
+    "signer_name": "Endang Mawarti",
+    "signer_position": "GM. Divisi Administrasi"
+  },
+  "expectedDecision": {
+    "status": "matched_high_confidence",
+    "reason": "all_required_fields_are_readable"
+  }
+}

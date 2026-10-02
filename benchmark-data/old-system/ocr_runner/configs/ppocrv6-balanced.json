@@ -1,0 +1,16 @@
+{
+  "configVersion": "ppocrv6-balanced-v1",
+  "ocrVersion": "PP-OCRv6",
+  "language": "id",
+  "device": "gpu:0",
+  "engine": "paddle_static",
+  "useDocumentOrientation": true,
+  "useDocumentUnwarping": false,
+  "useTextlineOrientation": true,
+  "textDetectionLimitSideLength": 1280,
+  "textDetectionLimitType": "max",
+  "textDetectionThreshold": 0.3,
+  "textDetectionBoxThreshold": 0.55,
+  "textDetectionUnclipRatio": 1.5,
+  "textRecognitionScoreThreshold": 0.25
+}

@@ -1,0 +1,55 @@
+{
+  "documentId": "tax-invoice-01",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageType": "tax_invoice",
+      "logicalDocumentId": "tax-invoice-01",
+      "classificationConfidence": 1
+    }
+  ],
+  "ocrText": "Faktur Pajak\r\nNama: AKEBONO BRAKE ASTRA INDONESIA\r\nAlamat: JALAN PEGANGSAAN DUA BLOK.A1\r\nKM.1,6, PEGANGSAAN DUA A1 NO.-, KOTA ADM.\r\nJAKARTA UTARA #0010606168055000000000\r\nKode dan Nomor Seri Faktur Pajak: 04002600343133156\r\nPengusaha Kena Pajak:\r\nNama : AKEBONO BRAKE ASTRA INDONESIA\r\nAlamat : JALAN PEGANGSAAN DUA BLOK.A1 KM.1,6, PEGANGSAAN DUA A1 NO.-, RT 000, RW 000,\r\nPEGANGSAAN DUA, KELAPA GADING, KOTA ADM, JAKARTA UTARA, DKI JAKARTA 14250\r\nNPWP : 0010606168055000\r\nPembeli Barang Kena Pajak/Penerima Jasa Kena Pajak:\r\nNama : HINO MOTORS MANUFACTURING INDONESIA\r\nAlamat : GEDUNG WISMA INDOMOBIL II JL MT. HARYONO KAV 9 , RT 000, RW 000, BIDARA CINA,\r\nJATINEGARA, KOTA ADM. JAKARTA TIMUR, DKI JAKARTA 13330 #0010601433092000000000\r\nNPWP : 0010601433092000\r\nNIK : -\r\nNomor Paspor : -\r\nIdentitas Lain : -\r\nEmail: tony.amanto@hino-motors.co.id\r\nKode | Harga Jual / Penggantian /\r\nNo. | Barang/ | Nama Barang Kena Pajak / Jasa Kena Pajak | Uang Muka / Termin\r\nJasa | (Rp)\r\n04905-37220\r\n1 | 000000 | Rp 63.480,00 x 1,00 Lainnya | 63.480,00\r\nPotongan Harga = Rp 0,00\r\nPPnBM (0,00%) = Rp 0,00\r\n04906-37440\r\n2 | 000000 | Rp 42.430,00 x 4,00 Lainnya | 169.720,00\r\nPotongan Harga = Rp 0,00\r\nPPnBM (0,00%) = Rp 0,00\r\nHarga Jual / Penggantian / Uang Muka / Termin | 233.200,00\r\nDikurangi Potongan Harga | 0,00\r\nDikurangi Uang Muka yang telah diterima\r\nDasar Pengenaan Pajak | 213.767,00\r\nJumlah PPN (Pajak Pertambahan Nilai) | 25.652,00\r\nJumlah PPnBM (Pajak Penjualan atas Barang Mewah) | 0,00\r\nSesuai dengan ketentuan yang berlaku, Direktorat Jenderal Pajak mengatur bahwa Faktur Pajak ini telah ditandatangani\r\nsecara elektronik sehingga tidak diperlukan tanda tangan basah pada Faktur Pajak ini.\r\nC | KOTA ADM. JAKARTA UTARA, 07 Agustus 2026\r\nJutand | ani secara elektronik\r\nFERRY YUDHI INDRABAYU\r\n(Referensi: 26/HMliF0076)\r\nPemberitahuan: Faktur Pajak ini telah dilaporkan ke Direktorat Jenderal Pajak dan telah memperoleh persetujuan sesuai | 1 dari 1\r\ndengan keadaan yang sebenarnya dan/atau sesungguhnya sebagaimana dimaksud dalam Pasal 13 ayat (9) UU PPN dengan ketentuan peraturan perpajakan yang berlaku. PERiNGATAN: PKP yang membuat Faktur Pajak yang tidak sesuai\r\ndikenai sanksi sesuai dengan Pasal 14 avat (4) UU KUP",
+  "extraction": {
+    "supplier_name": "AKEBONO BRAKE ASTRA INDONESIA",
+    "tax_invoice_number": "02600343133156",
+    "tax_invoice_date": "2026-08-07",
+    "sub_total_amount": 233200,
+    "discount": null,
+    "down_payment": null,
+    "taxable_base": 213767,
+    "tax_amount": 25652,
+    "luxury_goods_sales_tax": null,
+    "signer_name": "FERRY YUDHI INDRABAYU",
+    "items": [
+      {
+        "part_number": "04905-37220",
+        "part_name": null,
+        "quantity": 1,
+        "unit": null,
+        "price": 63480,
+        "amount": null
+      },
+      {
+        "part_number": "04906-37440",
+        "part_name": null,
+        "quantity": 4,
+        "unit": null,
+        "price": 42430,
+        "amount": null
+      }
+    ],
+    "tax_invoice_full_number": "04002600343133156",
+    "trans_type": "04",
+    "tax_replc": "0"
+  },
+  "decision": {
+    "status": "needs_review",
+    "reason": "baseline_v1_5_has_no_hes_matching_output"
+  },
+  "runtime": {},
+  "baselineMetadata": {
+    "sourceExtract": "tax-invoice1-extract.json",
+    "sourceClean": "tax-invoice1-clean.json",
+    "cleanStatus": "cleaned"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "documentId": "tax-invoice-03",
+  "requestedDocumentType": "tax_invoice",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageType": "tax_invoice",
+      "isTarget": true,
+      "logicalDocumentId": "tax-invoice-03"
+    },
+    {
+      "pageNumber": 2,
+      "pageType": "tax_invoice",
+      "isTarget": true,
+      "logicalDocumentId": "tax-invoice-03"
+    }
+  ],
+  "expectedExtraction": {
+    "supplier_name": "OKAYA INDONESIA",
+    "tax_invoice_full_number": "04002600352618855",
+    "trans_type": "04",
+    "tax_replc": "0",
+    "tax_invoice_number": "02600352618855",
+    "tax_invoice_date": "2026-09-02",
+    "items": [
+      {
+        "tax_goods_code": "000000",
+        "part_number": "WW-230E",
+        "part_name": "PAINT KILLER",
+        "quantity": 100,
+        "price": 138000.0,
+        "amount": 13800000.0
+      },
+      {
+        "tax_goods_code": "000000",
+        "part_number": "WW-28",
+        "part_name": "COAGULANT",
+        "quantity": 40,
+        "price": 41000.0,
+        "amount": 1640000.0
+      },
+      {
+        "tax_goods_code": "000000",
+        "part_number": "K-780",
+        "part_name": "PAINT FLOC",
+        "quantity": 40,
+        "price": 138000.0,
+        "amount": 5520000.0
+      }
+    ],
+    "sub_total_amount": 20960000.0,
+    "discount": 0.0,
+    "down_payment": null,
+    "taxable_base": 19213333.0,
+    "tax_amount": 2305600.0,
+    "luxury_goods_sales_tax": 0.0,
+    "signer_name": "FELICIA TANTRI"
+  },
+  "expectedDecision": {
+    "status": "matched_high_confidence",
+    "reason": "all_required_fields_are_readable"
+  }
+}

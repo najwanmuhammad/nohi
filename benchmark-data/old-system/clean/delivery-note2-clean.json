@@ -1,0 +1,14 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "documentType": "deliveryNote",
+      "status": "failed",
+      "data": null,
+      "message": "Ollama tidak menyelesaikan cleaning dalam batas waktu."
+    }
+  ],
+  "cleanedPageCount": 0,
+  "skippedPageCount": 0,
+  "failedPageCount": 1
+}

@@ -1,0 +1,142 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "documentType": "taxInvoice",
+      "status": "cleaned",
+      "data": {
+        "documentType": "taxInvoice",
+        "headerFields": {
+          "supplier_name": "INTERGLOBAL ELECTRIC PARTS",
+          "tax_invoice_number": "04002600381077552",
+          "tax_invoice_date": "15 September 2026",
+          "sub_total_amount": null,
+          "discount": null,
+          "down_payment": null,
+          "taxable_base": "53.813.800,00",
+          "tax_amount": "49.329.317,00",
+          "luxury_goods_sales_tax": null,
+          "signer_name": "SUWAYANTO WANGGANA"
+        },
+        "lineItems": [
+          {
+            "partNumber": "000,",
+            "partName": "SWITCH HAZARD WARNING SIGNAL (84332-F1010)",
+            "quantity": "120,00",
+            "price": "69.390,00",
+            "amount": "8.326.800,00"
+          }
+        ],
+        "confidence": 0.8192,
+        "requiresReview": true,
+        "warnings": [
+          "sub_total_amount ditolak karena tidak ditemukan dalam OCR.",
+          "line_items[0].part_name ditolak karena tidak ditemukan dalam OCR.",
+          "Ringkasan e-Faktur divalidasi dengan subtotal item dan rasio DPP/PPN."
+        ],
+        "evidence": [
+          {
+            "canonicalField": "sub_total_amount",
+            "value": null,
+            "sourceText": null,
+            "confidence": 0,
+            "method": "rejected_ungrounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "taxable_base",
+            "value": "53.813.800,00",
+            "sourceText": "53.813.800,00",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "tax_amount",
+            "value": "49.329.317,00",
+            "sourceText": "49.329.317,00",
+            "confidence": 0.9,
+            "method": "llm_grounded",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "tax_invoice_number",
+            "value": "04002600381077552",
+            "sourceText": "Kode dan Nomor Seri Faktur Pajak: 04002600381077552",
+            "confidence": 1,
+            "method": "label_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "supplier_name",
+            "value": "INTERGLOBAL ELECTRIC PARTS",
+            "sourceText": "Pengusaha Kena Pajak:\r\nNama : INTERGLOBAL ELECTRIC PARTS",
+            "confidence": 1,
+            "method": "label_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "tax_invoice_date",
+            "value": "15 September 2026",
+            "sourceText": "15 September 2026",
+            "confidence": 1,
+            "method": "last_printed_date_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "signer_name",
+            "value": "SUWAYANTO WANGGANA",
+            "sourceText": "SUWAYANTO WANGGANA\r\n",
+            "confidence": 0.95,
+            "method": "signature_area_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "part_number",
+            "value": "000,",
+            "sourceText": "000,",
+            "confidence": 1,
+            "method": "tax_invoice_validated",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "part_name",
+            "value": "SWITCH HAZARD WARNING SIGNAL (84332-F1010)",
+            "sourceText": "SWITCH HAZARD WARNING SIGNAL (84332-F1010)",
+            "confidence": 1,
+            "method": "tax_invoice_validated",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "quantity",
+            "value": "120,00",
+            "sourceText": "120,00",
+            "confidence": 1,
+            "method": "tax_invoice_validated",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "price",
+            "value": "69.390,00",
+            "sourceText": "69.390,00",
+            "confidence": 1,
+            "method": "tax_invoice_validated",
+            "lineItemIndex": 0
+          },
+          {
+            "canonicalField": "amount",
+            "value": "8.326.800,00",
+            "sourceText": "8.326.800,00",
+            "confidence": 1,
+            "method": "tax_invoice_validated",
+            "lineItemIndex": 0
+          }
+        ]
+      },
+      "message": null
+    }
+  ],
+  "cleanedPageCount": 1,
+  "skippedPageCount": 0,
+  "failedPageCount": 0
+}

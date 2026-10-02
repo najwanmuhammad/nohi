@@ -1,0 +1,75 @@
+{
+  "documentId": "invoice-01",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageType": "invoice",
+      "logicalDocumentId": "invoice-01",
+      "classificationConfidence": 1
+    },
+    {
+      "pageNumber": 2,
+      "pageType": "unknown",
+      "logicalDocumentId": "invoice-01-predicted-group-2",
+      "classificationConfidence": 0.79
+    },
+    {
+      "pageNumber": 3,
+      "pageType": "unknown",
+      "logicalDocumentId": "invoice-01-predicted-group-2",
+      "classificationConfidence": 0.78
+    },
+    {
+      "pageNumber": 4,
+      "pageType": "unknown",
+      "logicalDocumentId": "invoice-01-predicted-group-2",
+      "classificationConfidence": 0.64
+    },
+    {
+      "pageNumber": 5,
+      "pageType": "unknown",
+      "logicalDocumentId": "invoice-01-predicted-group-2",
+      "classificationConfidence": 0.52
+    }
+  ],
+  "ocrText": "PT. AKEBONO BRAKE ASTRA INDONESIA | Tel +62 2146830075\r\nakesono | JI. Pegangsaan Dua Blok A1, Km. 1,6 | Fax +62 21 46826659\r\nPegangsaan Dua, Kelapa Gading, Jakarta Utara | Email info.akebono-astra.co.id\r\nDKI Jakarta Rata, 14250 - INDONESIA | Url www.akebono-astra.co.id\r\nNPWP/TAX ID : 01.060.616.&055.000\r\nFaktur Penjualan / Invoice | No. 26HMliF0076\r\nPembeli / buyer : | Ref. / PO No. / Contract No.\r\nHINO MOTORS MANUFACTURING IND, PT | 46972026\r\nWisma Indomobil II\r\nJl.MT.Haryono kav.09 | Syarat Pembayaran / Term of Payment\r\n13330 Bidara Cina, Jatinegara DKI Jakarta Raya | PKP /Yes 30 Hari / days\r\nNon PKP /No 1\r\nNPWP / TAX ID. : 01.060.143.3-092.000\r\nNo. | Nama Barang dan Penjelasan / Description | Jumlah / Qty Harga Satuan / Price Jumlah Harga / Amount\r\n1 04905-37220 - CUP KIT, WHEEL CYLINDER PISTON, FR | 1.0 KT IDR | 63,480.00 IDR | 63,480.00\r\n2 04906-37440 - CUP KIT, WHEEL CYlINDER PISTON, RR | 4.0 KT IDR | 42,430.00 IDR | 169,720.00\r\nTotal Qty | 5.0 KT\r\nJumlah Harga Jual | IDR | 233,200.00\r\nDasar Pengenaan Pajak/Taxable Amount | . ( 11/12 * harga jual ) | IDR | 213,766.67\r\nPajak Pertambahan Nilai (PPN)/Value Added | ( 12% x DPP ) | IDR | 25,652.00\r\n#Two Hundred And Fifty-eight Thousand, Eight Hundred And Fifty-two# | IDR | 258,852.00\r\nTgl. Jatuh Waktu/\r\nDue Date : ... . .06 September 2026. .....\r\nPembayaran secara / Payment made by : | Jakarta, 07 August 2026\r\nTransfer to : PT. AKEBONO BRAKE ASTRA INDONESIA\r\nBank Mizuho Indonesia, Menara Astra, JI. Jenderal Sudirman No.Kav. 5-6\r\n53st Floor, RT.10/Rw.11, Karet Tengsin, Kecamatan Tanah Abang,\r\nKota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10220 | DAEBONO\r\nA/C No. 302828-0152 IDR 302828-0201 USD | WISONONN\r\n302828-0302 JPY | Ferry Yudbi\r\nATAU | Finance &Analyst Dept.Head\r\nBank Permata cabang Sunter :\r\nA/C No. 0353131001 IDR\r\nHal 1/1\n\nNo | Date | Attn A0\r\n2. Mr. Yandi Nugraha 1. Mr. M.khairul | 02200-20602 1 04906-37440 | peadr Refference of PO No. Supplier Phone Supplier Fax No. Supplier Email Addres: Supplier Code\r\nPart No\r\n- email : khairul@hino-motors.co.id 3 days after you receive this order to :\r\no- :  - Please reply your supply information by fax or email | Minor\r\nHMMI - Service Part & Packing Export Department. (Fax : 0264-351.755) | Part No Unique | 22-P-8 22-212-22 00000802 034ZZ8-2Z 2018 Logistic Control Division - Service Part & Packing Export Dept. PT. HINO MOTORS MANUFACTURING INDONESIA\r\nMooo\r\n469/2018/SP-EX/07/2026 proloo\r\nPre r a or\r\nCUP KIT, WHEEL CYLINDER PISTON, FR CUP KIT, WHEEL CYLINDER PISTON, RR\r\nPart Name\r\nREMARK :\r\nTOTAL:\r\nPage 1 of 1 | Fax : 0264 - 351 358 Phone : 0264 - 351 359 41181 Blok D Il No. 9 & 21, Purwakarta Kawasan Kota Bukit Indah PT. OKAMOTO LOGISTIC NUSANTARA Please deliver goods to:\r\nS | 4 Order Total\r\nSedd  e P 2. Use Packaging Hino ( Please Follow SPPS ) Based On Firm Order PO No : SHMVS26139\r\n4 3-Aug-2026 Instruction D\r\n1. For Export to Vietnam 479W ( Service Part Emergency Order )\r\n5. Please Give Mark : \"Service Part Vietnam \" - PIC : Mr.Dedeng Tarmedi 3. Please Delivery Goods to PT. Okamoto Logistic Nusantara, Purwakarta\r\n, N+1 N+2 N+3 Forecasting | Confirmation seuddne\r\nExport to Vietnam 479W - July 2026 SERVICE PARTS DELIVERY INSTRUCTION\r\nM Khairul | Approved\r\nOKAMOTO OKAMOTO Destination Delivery\r\nYandi N CONFIRMED Checked EMERGeNCY ORDeR PT. Hino Motors Manufacturing Indonesia\r\nPde Delivery Method\r\nDirect Direct\r\nREV:00 | Dedeng T | perede | PAD/FR-SPD-00/004\r\nPart Address\n\nHINO\r\nPurwakarta, March 6, 2028 | Form No: PuD/FR-CPS-00/003\r\nNo : 1002/271-PC-Ext/HMMl-PuD/Il1/26\r\nTo:\r\nPT. AKEBONO BRAKE ASTRA INDONESIA\r\nJl. Raya Pegangsaan Il Km. 1.6 Blok A1\r\nKelapa Gading\r\nJakarta - 14250\r\nAttn : Mr. Cosmas D. Singaih\r\nPresident Director\r\nSubiect : Export Service Parts Price Confirmation\r\nDear Sir,\r\nWith this letter, we would like to inform you the Export Service Part Price Confirmation for the attached\r\nas below :\r\n~attached ~\r\nWith conditions :\r\n1. Exclude Vat 12%\r\n2. Effective period : April 2026 ~ September 2026 delivery\r\n3. Exchange Rate 1 US$= Rp. 16,503, JPY= Rp. 109.48\r\n4. The price include packaging and transportation cost\r\nThank you for your attention and cooperation\r\nYours Faithfully, | Confirm ByAKEASTRA\r\nC\r\nWSON\r\nHarianto Sariyan | Mr CosmialstD Singgih\r\nDirector | President Director\r\nCC. : - Finance & Accounting Division Head\r\n- Business Planning Division Head\r\n-File\r\nRefer to: 333/039-PC-Int/PuD//26 | Rev. 01\r\nPT. HINO MOTORS MANUFACTURING INDONESIA\r\nHEAD OFFICE : WISMA INDOMOBIL 1I, JI. MT. HaryOno Kav. 9, Jakarta 13330 - INDONESIA Telp. : (62-21) 856 4881 - Fax. : (62-21) 851 7550\r\nFACTORY : Kawasan Industri Kota Bukit Indah Biok D1 No. 1 Purwakarta 4118t Jawa Barat - INDONESIA\r\nTelp. : (62-284) 351 911 - Fax. : (62-264) 351 755, 350 488\n\nAttachment Letter No : 1002/271-PC-Ext/HMMI-PuD/il/26\r\nNo | PART No. | PART NAME | PRICE (IDR)\r\nh 044733725000 CYLINDER KIT, WHEEL, FR | Rp. | 39,540.00\r\n2 044743755000 CYLINDER KIT, WHEEL, RR | Rp. | 79,080.00\r\nc 044773713000 LINING KIT, BRAKE | Rp. | 516,960.00\r\n044773714000 LINING KIT, BRAKE | Rp, | 502,910.00\r\n0 044943714000 SHOE KIT, FR BRAKE | Rp. | 809,350.00\r\nCO 044953722000 SHOE KIT, RR BRAKE | Rp. | 744,810.00\r\n7 049053722000 CUp KiT. WHEEL CYLINDER PISToN, FR | Rp. | 63,480.00 I\r\n8 049063744000 CUP KIT, WHEEL CYLINDER PISTON, RR | Rp. | 42,430.00\r\noi 47041F101000 PLATE SUB-ASSY, BRAKE BACKING, FR RH | Rp. | 323,080.00\r\n10 47042F101000 PLATE SUB-ASSY, BRAKE BACKING, FR LH | Rp. | 323,080.00\r\n11 47043F101000 PLATE SUB-ASSY, BRAKE BACKING, RR RH | Rp. | 426,470.00\r\n12 47044F101000 PLATE SUB-ASSY, BRAKE BACKING, RR LH | Rp. | 426,470.00\r\n13 473423704000 TUBE, WHEEL CYLINDER, FT RH | Rp. | 22,330.00\r\n14 47342F101000 TUBE, WHEEL CYLINDER, FR NO.2 | Rp. | 24,370.00\r\n15 473443702000 TUBE, WHEEL CYLinDER. FT LH | Rp. | 22,290.00\r\n16 473453602000 TUBE, WHEEL CYLINDER, RR | Rp. | 23,510.00\r\n17 473453605000 TUBE, WHEEL CYLINDER, RR | Rp. | 30,360.00\r\n18 47345F101000 TUBE. WHEEL CYLINDER, RR | Rp. | 24,940.00\r\n19 47381F101000 BRACKET, TUBE CLAMP | Rp. | 17,470.00\r\n20 47446F101000 SPRING. FR BRAKE RETURN | Rp. | 16,770.00\r\nY 47447F101000 PIN, SHOE HOLD DOWN SPRING | Rp. | 19,090.00\r\n22 47447F102000 PIN, SHOE HOLD DOWN SPRING | Rp. | 18,140.00\r\n8 47449F101000 CUP, SHOE HOLD DOWN | Rp. | 16,590.00\r\n24 47459F101000 SPRING TENSION FR BRAKE RETURN | Rp. | 26,550.00\r\n25 47510F101000 CYLINDER ASSY, WHEEL BRAKE FR RH NO.1 | Rp. | 243,960.00\r\n26 47510F101100 CYLINDER ASSY, WHEEL BRAKE, FR RH NO.1 | Rp. | 243,960.00\r\n27 47520F101000 CYLiNDER ASSY, WHEEL BRAKE FR RH NO.2 | Rp. | 243,960.00\r\n28 47520F101100 CYLINDER ASSY, WHEEL BRAKE, FR RH NO.2 | Rp. | 243,960.00\r\n29 47530F101000 CYLINDER ASSY, WHEEL BRAKE FR LH NO.1 | Rp. | 243,960.00\r\n30 47530F101100 CYLINDER ASSY, WHEEL BRAKE. FR LH NO.1 | Rp. | 243,960.00\r\n47540F101000 CYLINDER ASSY, WHEEL BRAKE, FR LH NO.2 | Rp. | 243,960.00\r\n32 47540F101100 CYLINDER ASSY, WHEEL BRAKE, FR LH NO.2 | Rp. | 243,960.00\r\n33 47547F101000 PLUG, BLEEDER | Rp. | 15,420.00\r\n34 47550F101000 CYLINDER ASSY, WHEEL BRAKE, RR RH NO.2 | Rp. | 268,570.00\r\n35 47550F101100 CYLINDER ASSY, WHEEL BRAKE, RR RH NO.2 | Rp. | 268,570.00\r\n36 47553F102000 i BOLT, WHEEL CYLINDER | Rp. | 15,270.00 e\n\nAttachment Letter No : 1002/271-PC-Ext/HMMI-PuD/l/26\r\nNo | PaRt No. | PART NAME | PRICE (IDR)\r\n37 47554F101000 BOLT, WHEEL CYLINDER ADJUSTING | Rp. | 18,150.00\r\n38 47555F101100 SPRING, ADJUSTER LOCK | Rp. | 16,580.00\r\n39 47560F101000 CYLINDER ASSY, WHEEL BRAKE, RR RR NO.2 | Rp. | 268,570.00\r\n40 47560F101100 CYLINDER ASSY, WHEEL BRAKE, RR RR NO.2 | Rp. | 268,570.00\r\n41 47570F101000 CYLINDER ASSY, WHEEL BRAKE RR LH NO.1 | Rp. | 268,570.00\r\n42 47570F101100 CYLINDER ASSY, WHEEL BRAKE, RR LH NO.1 | Rp. | 268,570.00\r\n43 47580F101000 CYLINDER ASSY, WHEEL BRAKE RR LH NO.2 | Rp. | 268,570.00\r\n44 47580F101100 CYLINDER ASSY, WHEEL BRAKE, RR LH NO.2 | Rp. | 268,570.00\r\n45 905012001200 SPRING, COMPRESSION | Rp. | 14,320.00\r\nM",
+  "extraction": {
+    "supplier_name": "PT. AKEBONO BRAKE ASTRA INDONESIA",
+    "invoice_number": "26HMliF0076",
+    "invoice_date": "2026-08-07",
+    "sub_total_amount": 233200,
+    "taxable_base": 213766.67,
+    "tax_amount": 25652,
+    "total_amount": 258852,
+    "signer_name": "Ferry Yudbi",
+    "signer_position": "Finance &Analyst Dept.Head",
+    "items": [
+      {
+        "part_number": "04905-37220",
+        "part_name": "CUP KIT, WHEEL CYLINDER PISTON, FR",
+        "quantity": 1,
+        "unit": null,
+        "price": 63480,
+        "amount": 63480
+      },
+      {
+        "part_number": "04906-37440",
+        "part_name": "CUP KIT, WHEEL CYlINDER PISTON, RR",
+        "quantity": 4,
+        "unit": null,
+        "price": 42430,
+        "amount": 169720
+      }
+    ]
+  },
+  "decision": {
+    "status": "needs_review",
+    "reason": "baseline_v1_5_has_no_hes_matching_output"
+  },
+  "runtime": {},
+  "baselineMetadata": {
+    "sourceExtract": "invoice1-extract.json",
+    "sourceClean": "invoice1-clean.json",
+    "cleanStatus": "cleaned"
+  }
+}

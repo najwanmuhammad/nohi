@@ -1,0 +1,53 @@
+{
+  "documentId": "invoice-03",
+  "requestedDocumentType": "invoice",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageType": "invoice",
+      "isTarget": true,
+      "logicalDocumentId": "invoice-03"
+    }
+  ],
+  "expectedExtraction": {
+    "supplier_name": "PT. OKAYA INDONESIA",
+    "invoice_number": "SI2609039",
+    "invoice_date": "2026-09-02",
+    "items": [
+      {
+        "part_number": "WW-230E",
+        "part_name": "PAINT KILLER",
+        "quantity": 100,
+        "unit": "KG",
+        "price": 138000.0,
+        "amount": 13800000.0
+      },
+      {
+        "part_number": "WW-28",
+        "part_name": "COAGULANT",
+        "quantity": 40,
+        "unit": "KG",
+        "price": 41000.0,
+        "amount": 1640000.0
+      },
+      {
+        "part_number": "K-780",
+        "part_name": "PAINT FLOC",
+        "quantity": 40,
+        "unit": "KG",
+        "price": 138000.0,
+        "amount": 5520000.0
+      }
+    ],
+    "sub_total_amount": 20960000.0,
+    "taxable_base": null,
+    "tax_amount": 2305600.0,
+    "total_amount": 23265600.0,
+    "signer_name": "SASAKI KAZUKI",
+    "signer_position": null
+  },
+  "expectedDecision": {
+    "status": "mismatch",
+    "reason": "required_taxable_base_not_printed_in_invoice"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "documentType": "taxInvoice",
+      "status": "cleaned",
+      "data": {
+        "documentType": "taxInvoice",
+        "headerFields": {
+          "supplier_name": "OKAYA INDONESIA",
+          "tax_invoice_number": "04002600352618855",
+          "tax_invoice_date": "02 September\r\n2026",
+          "sub_total_amount": null,
+          "discount": null,
+          "down_payment": null,
+          "taxable_base": null,
+          "tax_amount": null,
+          "luxury_goods_sales_tax": null,
+          "signer_name": "FELICIA TANTRI"
+        },
+        "lineItems": [],
+        "confidence": 0.3575,
+        "requiresReview": true,
+        "warnings": [
+          "Ringkasan e-Faktur divalidasi dengan subtotal item dan rasio DPP/PPN.",
+          "Satu atau lebih header field kritis tidak ditemukan.",
+          "Line item kosong atau mempunyai field kritis yang belum ditemukan."
+        ],
+        "evidence": [
+          {
+            "canonicalField": "tax_invoice_number",
+            "value": "04002600352618855",
+            "sourceText": "Kode dan Nomor Seri Faktur Pajak: 04002600352618855",
+            "confidence": 1,
+            "method": "label_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "supplier_name",
+            "value": "OKAYA INDONESIA",
+            "sourceText": "Pengusaha Kena Pajak:\r\nNama : OKAYA INDONESIA",
+            "confidence": 1,
+            "method": "label_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "tax_invoice_date",
+            "value": "02 September\r\n2026",
+            "sourceText": "02 September\r\n2026",
+            "confidence": 1,
+            "method": "last_printed_date_rule",
+            "lineItemIndex": null
+          },
+          {
+            "canonicalField": "signer_name",
+            "value": "FELICIA TANTRI",
+            "sourceText": "FELICIA TANTRI",
+            "confidence": 0.95,
+            "method": "signature_area_rule",
+            "lineItemIndex": null
+          }
+        ]
+      },
+      "message": null
+    },
+    {
+      "pageNumber": 2,
+      "documentType": "taxInvoice",
+      "status": "cleaned",
+      "data": {
+        "documentType": "taxInvoice",
+        "headerFields": {
+          "supplier_name": null,
+          "tax_invoice_number": null,
+          "tax_invoice_date": null,
+          "sub_total_amount": null,
+          "discount": null,
+          "down_payment": null,
+          "taxable_base": null,
+          "tax_amount": null,
+          "luxury_goods_sales_tax": null,
+          "signer_name": null
+        },
+        "lineItems": [],
+        "confidence": 0,
+        "requiresReview": true,
+        "warnings": [
+          "Satu atau lebih header field kritis tidak ditemukan.",
+          "Line item kosong atau mempunyai field kritis yang belum ditemukan."
+        ],
+        "evidence": []
+      },
+      "message": null
+    }
+  ],
+  "cleanedPageCount": 2,
+  "skippedPageCount": 0,
+  "failedPageCount": 0
+}
